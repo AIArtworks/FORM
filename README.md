@@ -9,8 +9,8 @@ using an archival design system: **warm paper, black draughtsman linework, and
 an archive-gold accent**, with a boxed "FORM" wordmark (Archivo display + Inter
 body).
 
-Volume I — the **motorcycle studies** — is the live collection. Aviation,
-automotive, and architecture are scaffolded as upcoming volumes.
+Volumes I & II — the **motorcycle studies** and the **automotive design icons**
+— are live. Aviation and architecture are scaffolded as upcoming volumes.
 
 > Design system structure & components adapted from the supplied design template
 > and re-skinned end-to-end to FORM's brand identity.
@@ -32,6 +32,16 @@ Italian / German). Real artwork lives in `assets/art/machines/`:
 `study-001-honda-cb750` · `002-triumph-t120` · `003-norton-commando` ·
 `004-ducati-900ss` · `005-bmw-r80gs` · `006-yamaha-rd350` · `007-yamaha-xs650` ·
 `009-suzuki-gt750` · `010-motoguzzi-lemans`
+
+## The collection (Volume II — Automotive Design Icons)
+
+Ten automotive studies, 1950–1987 — filterable by origin (German / British /
+Italian / American / French). Artwork is 5:4 (the tiles use `.product-grid--auto`
+so they render without cropping the labels):
+
+`study-011-porsche-911` · `012-jaguar-etype` · `013-ferrari-f40` ·
+`014-mercedes-300sl` · `015-ford-gt40` · `016-lamborghini-miura` ·
+`017-ferrari-250gto` · `018-aston-db5` · `019-porsche-356` · `020-citroen-ds`
 
 ## Design system
 

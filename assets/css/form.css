@@ -176,6 +176,8 @@ img { display: block; max-width: 100%; }
 .product-card { background: var(--color-paper-card); border: 1px solid var(--color-line); border-radius: var(--radius-sm); overflow: hidden; transition: all var(--transition-normal) var(--ease-smooth); position: relative; }
 .product-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-4px); border-color: var(--color-line-strong); }
 .product-media { position: relative; aspect-ratio: 3/2; overflow: hidden; background: var(--color-paper-card); }
+/* Volume II automotive plates are 5:4 — give them a matching tile so nothing crops */
+.product-grid--auto .product-media { aspect-ratio: 5/4; }
 .product-media img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--transition-slow) var(--ease-smooth); }
 .product-card:hover .product-media img { transform: scale(1.03); }
 .product-badge { position: absolute; top: 10px; left: 10px; background: var(--color-accent); color: #fff; font-size: 10px; font-weight: var(--fw-bold); letter-spacing: var(--tracking-wide); text-transform: uppercase; padding: 4px 10px; border-radius: var(--radius-pill); }
