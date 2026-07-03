@@ -43,6 +43,22 @@ so they render without cropping the labels):
 `014-mercedes-300sl` · `015-ford-gt40` · `016-lamborghini-miura` ·
 `017-ferrari-250gto` · `018-aston-db5` · `019-porsche-356` · `020-citroen-ds`
 
+## The roadmap (Volumes III–VI — in development)
+
+Four further volumes from the Collection Masterplan are scaffolded as
+placeholder collections — each with **ten** planned entries and a branded
+placeholder plate (`assets/art/placeholder-*.svg`), shown on the shop page
+under **Roadmap**:
+
+- **Volume III — Mechanical Anatomy** (Studies 021–030)
+- **Volume IV — Blueprint Collection** (031–040)
+- **Volume V — Workshop Collection** (041–050)
+- **Volume VI — Industrial Icons** (051–060)
+
+To make a volume live: drop the real 5:4/3:2 plates into `assets/art/machines/`,
+swap the `.product-card--soon` cards for standard cards, and flip its collection
+card from "Coming soon" to "Shop now".
+
 ## Design system
 
 Tokens are CSS custom properties in `assets/css/form.css`:

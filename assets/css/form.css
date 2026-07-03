@@ -351,3 +351,14 @@ select.input { appearance: none; background-image: url("data:image/svg+xml;utf8,
 .mobile-menu.open { display: block; }
 .mobile-menu-close { position: absolute; top: 20px; right: 20px; background: none; border: none; color: var(--color-paper); font-size: 28px; cursor: pointer; }
 .mobile-menu a { display: block; font-family: var(--font-display); font-weight: var(--fw-black); font-size: 30px; text-transform: uppercase; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+
+/* ============================================ COMING-SOON / PLACEHOLDER ============================================ */
+.product-card--soon { cursor: default; }
+.product-card--soon:hover { transform: none; box-shadow: var(--shadow-sm); border-color: var(--color-line); }
+.product-card--soon .product-media img { opacity: 0.72; filter: grayscale(0.12); transition: none; }
+.product-card--soon:hover .product-media img { transform: none; }
+.product-card--soon .product-price b { color: var(--color-muted); }
+.product-card--soon .product-badge { left: auto; right: 10px; }
+.cat-grid.cat-grid--six { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 1100px) { .cat-grid.cat-grid--six { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px)  { .cat-grid.cat-grid--six { grid-template-columns: 1fr; } }
