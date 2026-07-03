@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Aviation blueprint">
+<rect width="600" height="800" fill="#ECE4D5"/>
+<g stroke="#C4B79C" stroke-width="1">
+<line x1="0" y1="200" x2="600" y2="200"/><line x1="0" y1="400" x2="600" y2="400"/><line x1="0" y1="600" x2="600" y2="600"/>
+<line x1="150" y1="0" x2="150" y2="800"/><line x1="300" y1="0" x2="300" y2="800"/><line x1="450" y1="0" x2="450" y2="800"/>
+</g>
+<g fill="none" stroke="#17140F" stroke-width="4" stroke-linejoin="round">
+<path d="M70 410 L470 380 Q520 378 540 400 Q520 422 470 420 L70 410 Z"/>
+<path d="M250 400 L150 250 L200 250 L330 392"/>
+<path d="M250 412 L150 560 L200 560 L330 420"/>
+<path d="M470 388 L520 320 L540 322 L520 398"/>
+</g>
+<circle cx="300" cy="405" r="8" fill="#A9843C"/>
+<circle cx="470" cy="400" r="14" fill="none" stroke="#A9843C" stroke-width="3"/>
+</svg>

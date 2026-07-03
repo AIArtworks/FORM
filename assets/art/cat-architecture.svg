@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Architecture blueprint">
+<rect width="600" height="800" fill="#ECE4D5"/>
+<g stroke="#C4B79C" stroke-width="1">
+<line x1="0" y1="200" x2="600" y2="200"/><line x1="0" y1="400" x2="600" y2="400"/><line x1="0" y1="600" x2="600" y2="600"/>
+<line x1="150" y1="0" x2="150" y2="800"/><line x1="300" y1="0" x2="300" y2="800"/><line x1="450" y1="0" x2="450" y2="800"/>
+</g>
+<g fill="none" stroke="#17140F" stroke-width="4" stroke-linejoin="round">
+<rect x="220" y="150" width="160" height="520"/>
+<path d="M300 90 L220 150 L380 150 Z"/>
+<line x1="220" y1="230" x2="380" y2="230"/><line x1="220" y1="310" x2="380" y2="310"/>
+<line x1="220" y1="390" x2="380" y2="390"/><line x1="220" y1="470" x2="380" y2="470"/>
+<line x1="220" y1="550" x2="380" y2="550"/>
+<line x1="300" y1="150" x2="300" y2="670"/>
+<line x1="150" y1="670" x2="450" y2="670"/>
+</g>
+<circle cx="300" cy="120" r="10" fill="#A9843C"/>
+<rect x="278" y="600" width="44" height="70" fill="none" stroke="#A9843C" stroke-width="3"/>
+</svg>
