@@ -97,7 +97,7 @@ img { display: block; max-width: 100%; }
 
 /* ============================================ HEADER / NAV ============================================ */
 .site-header { position: sticky; top: 0; z-index: var(--z-header); background: rgba(243,238,227,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--color-line); }
-.nav { display: flex; align-items: center; justify-content: space-between; gap: var(--space-16); padding: var(--space-6) var(--space-16); max-width: var(--container-max); margin: 0 auto; }
+.nav { position: relative; display: flex; align-items: center; justify-content: space-between; gap: var(--space-16); padding: var(--space-6) var(--space-16); max-width: var(--container-max); margin: 0 auto; }
 /* Boxed FORM wordmark — the archive stamp */
 .nav-logo { display: inline-flex; align-items: center; }
 .logo-box {
@@ -136,8 +136,9 @@ img { display: block; max-width: 100%; }
 /* ============================================ HERO ============================================ */
 .hero { position: relative; background: var(--color-paper-soft); overflow: hidden; border-bottom: 1px solid var(--color-line); }
 .hero-inner { max-width: var(--container-content); margin: 0 auto; display: grid; grid-template-columns: 0.82fr 1.18fr; align-items: center; gap: var(--space-24); padding: var(--space-40) var(--space-16); }
+.hero-text, .hero-art { min-width: 0; }
 .hero-eyebrow { font-size: var(--text-sm); font-weight: var(--fw-bold); letter-spacing: var(--tracking-wider); text-transform: uppercase; color: var(--color-accent); margin-bottom: var(--space-8); }
-.hero-title { font-size: var(--text-hero); font-weight: var(--fw-black); line-height: var(--leading-tight); letter-spacing: var(--tracking-tighter); }
+.hero-title { font-size: clamp(2.4rem, 10.5vw, 5.75rem); font-weight: var(--fw-black); line-height: var(--leading-tight); letter-spacing: var(--tracking-tighter); overflow-wrap: break-word; }
 .hero-title em { font-style: italic; color: var(--color-accent); }
 .hero-copy { font-size: var(--text-lg); color: var(--color-ink-soft); max-width: 440px; margin: var(--space-8) 0 var(--space-16); line-height: var(--leading-relaxed); }
 .hero-actions { display: flex; gap: var(--space-6); flex-wrap: wrap; }
@@ -201,6 +202,7 @@ img { display: block; max-width: 100%; }
 
 /* ============================================ SPLIT / STORY ============================================ */
 .split { display: grid; grid-template-columns: 1.1fr 0.9fr; align-items: center; gap: var(--space-24); }
+.split > *, .pdp > * { min-width: 0; }
 .split-frame { background: var(--color-paper-card); border: 1px solid var(--color-line); box-shadow: var(--shadow-md); border-radius: var(--radius-sm); overflow: hidden; }
 .split-frame img { width: 100%; aspect-ratio: 3/2; object-fit: cover; }
 .split-copy h2 { font-size: var(--text-5xl); font-weight: var(--fw-black); line-height: var(--leading-snug); letter-spacing: var(--tracking-tight); }
@@ -303,7 +305,6 @@ select.input { appearance: none; background-image: url("data:image/svg+xml;utf8,
 
 /* ============================================ RESPONSIVE ============================================ */
 @media (max-width: 1100px) {
-  .hero-title { font-size: var(--text-display); }
   .cat-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 900px) {
@@ -318,14 +319,29 @@ select.input { appearance: none; background-image: url("data:image/svg+xml;utf8,
   .section-title { font-size: var(--text-4xl); }
   .cta-band h2 { font-size: var(--text-4xl); }
   .page-head h1 { font-size: var(--text-6xl); }
+  /* mobile header: keep it to hamburger · logo · cart */
+  .nav { padding: var(--space-6) var(--space-8); gap: var(--space-6); }
+  .nav-logo { flex: 1; display: flex; justify-content: center; }
+  .nav-toggle { position: absolute; left: var(--space-8); }
+  .nav-icons .nav-search, .nav-icons button:nth-of-type(2) { display: none; }
 }
 @media (max-width: 560px) {
-  .hero-title { font-size: 54px; }
   .product-grid, .product-grid.cols-2 { grid-template-columns: 1fr; }
   .cat-grid, .stats-grid, .steps-grid, .reviews-grid, .footer-top { grid-template-columns: 1fr; }
-  .nav-icons .nav-search { display: none; }
   .container { padding: 0 var(--space-8); }
+  .announce { font-size: 11px; padding: 8px 12px; letter-spacing: 0.05em; }
+  .hero { }
+  .hero-inner { padding: var(--space-16) var(--space-8); }
+  .logo-box { font-size: 18px; padding: 5px 10px 4px 12px; letter-spacing: 0.16em; }
+  .section { padding: var(--space-24) 0; }
+  .page-head { padding: var(--space-24) var(--space-8); }
   .page-head h1 { font-size: var(--text-5xl); }
+  .cta-band h2 { font-size: var(--text-3xl); }
+  .section-title { font-size: var(--text-3xl); }
+  .pdp-title { font-size: var(--text-4xl); }
+  .newsletter { flex-direction: column; gap: 10px; }
+  .newsletter input { border-right: 1px solid #3a3428; border-radius: var(--radius-pill); }
+  .newsletter button { border-radius: var(--radius-pill); }
 }
 
 /* Mobile drawer */
