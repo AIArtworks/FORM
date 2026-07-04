@@ -1,12 +1,13 @@
 /* ============================================================
-   FORM — storefront interactions
-   Lightweight, dependency-free. Cart state persists in
-   localStorage so the count survives navigation between pages.
+   FORM — UI interactions (non-cart).
+   Cart/checkout live in store.js; this handles page chrome.
    ============================================================ */
 (function () {
   'use strict';
+  var F = window.FORM = window.FORM || {};
+  function toast(msg) { (F.toast || function (m) { console.log(m); })(msg); }
 
-  /* ---------- Scroll progress bar ---------- */
+  /* Scroll progress */
   var indicator = document.getElementById('scrollIndicator');
   if (indicator) {
     window.addEventListener('scroll', function () {
@@ -15,47 +16,14 @@
     }, { passive: true });
   }
 
-  /* ---------- Mobile menu ---------- */
+  /* Mobile menu */
   var toggle = document.querySelector('.nav-toggle');
   var drawer = document.querySelector('.mobile-menu');
   var closeBtn = document.querySelector('.mobile-menu-close');
-  if (toggle && drawer) {
-    toggle.addEventListener('click', function () { drawer.classList.add('open'); });
-  }
-  if (closeBtn && drawer) {
-    closeBtn.addEventListener('click', function () { drawer.classList.remove('open'); });
-  }
+  if (toggle && drawer) toggle.addEventListener('click', function () { drawer.classList.add('open'); });
+  if (closeBtn && drawer) closeBtn.addEventListener('click', function () { drawer.classList.remove('open'); });
 
-  /* ---------- Cart count (localStorage) ---------- */
-  function getCount() { return parseInt(localStorage.getItem('form_cart') || '0', 10); }
-  function setCount(n) {
-    localStorage.setItem('form_cart', String(n));
-    document.querySelectorAll('.cart-count').forEach(function (el) { el.textContent = n; });
-  }
-  setCount(getCount());
-
-  /* ---------- Toast ---------- */
-  var toast = document.getElementById('toast');
-  var toastTimer;
-  function showToast(msg) {
-    if (!toast) return;
-    toast.innerHTML = msg;
-    toast.classList.add('show');
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(function () { toast.classList.remove('show'); }, 2600);
-  }
-
-  /* ---------- Add to cart (any [data-add]) ---------- */
-  document.querySelectorAll('[data-add]').forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
-      e.preventDefault();
-      setCount(getCount() + 1);
-      var name = btn.getAttribute('data-add') || 'Print';
-      showToast('Added <b>' + name + '</b> to cart');
-    });
-  });
-
-  /* ---------- Filter chips (shop / home) ---------- */
+  /* Filter chips */
   document.querySelectorAll('[data-filters]').forEach(function (row) {
     var grid = document.querySelector(row.getAttribute('data-filters'));
     row.querySelectorAll('.chip').forEach(function (chip) {
@@ -72,17 +40,18 @@
     });
   });
 
-  /* ---------- Product option pickers (PDP) ---------- */
+  /* Option pickers (size / finish) — generic toggle */
   document.querySelectorAll('.option-row').forEach(function (row) {
     row.querySelectorAll('.option').forEach(function (opt) {
       opt.addEventListener('click', function () {
         row.querySelectorAll('.option').forEach(function (o) { o.classList.remove('active'); });
         opt.classList.add('active');
+        document.dispatchEvent(new CustomEvent('form:option'));
       });
     });
   });
 
-  /* ---------- PDP thumbnail swap ---------- */
+  /* PDP thumbnail swap */
   var mainImg = document.getElementById('pdpMain');
   if (mainImg) {
     document.querySelectorAll('.pdp-thumbs img').forEach(function (t) {
@@ -90,17 +59,17 @@
     });
   }
 
-  /* ---------- Newsletter / forms (demo, no backend) ---------- */
+  /* Demo forms (newsletter, notify, etc.) */
   document.querySelectorAll('form[data-demo]').forEach(function (form) {
     form.addEventListener('submit', function (e) {
       e.preventDefault();
+      var email = (form.querySelector('input[type=email]') || {}).value;
+      if (email && F.db) F.db.insert('newsletter_signups', { email: email, source: form.getAttribute('data-source') || 'site' });
       form.reset();
-      showToast(form.getAttribute('data-demo') || 'Thanks — you are on the list');
+      toast(form.getAttribute('data-demo') || 'Thanks — you are on the list');
     });
   });
 
-  /* ---------- Footer year ---------- */
-  document.querySelectorAll('.js-year').forEach(function (el) {
-    el.textContent = new Date().getFullYear();
-  });
+  /* Footer year */
+  document.querySelectorAll('.js-year').forEach(function (el) { el.textContent = new Date().getFullYear(); });
 })();

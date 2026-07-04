@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Study 001 — Honda CB750 (1969) | FORM</title>
-<meta name="description" content="Study 001: Honda CB750, 1969. A hand-detailed engineering print by FORM, made to order on museum-grade archival paper. Multiple sizes and finishes.">
+<title>Study | FORM — The Engineering Archive</title>
+<meta name="description" content="A hand-detailed engineering study by FORM, made to order on museum-grade archival paper.">
 <link rel="icon" href="assets/art/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,9 +28,9 @@
       <li><a href="about.html">About</a></li>
     </ul>
     <div class="nav-icons">
-      <button class="nav-search">Search</button>
-      <button>Account</button>
-      <button class="nav-cart">Cart (<b class="cart-count">0</b>)</button>
+      <a href="search.html" class="nav-search">Search</a>
+      <a href="account.html" class="nav-account">Account</a>
+      <a href="cart.html" class="nav-cart">Cart (<b class="cart-count">0</b>)</a>
     </div>
   </nav>
 </header>
@@ -42,88 +42,18 @@
   <a href="shop.html#automotive">Sports Cars</a>
   <a href="shop.html#roadmap">Roadmap</a>
   <a href="about.html">About</a>
+  <a href="search.html">Search</a>
+  <a href="account.html">Account</a>
 </div>
 
 <section class="section">
-  <div class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a> / <a href="shop.html">Archive</a> / <a href="shop.html#studies">Motorcycles</a> / <span>Study 001</span></div>
-    <div class="pdp">
-      <div class="pdp-media">
-        <div class="pdp-frame"><img id="pdpMain" src="assets/art/machines/study-001-honda-cb750.png" alt="Study 001 — Honda CB750, 1969"></div>
-        <div class="pdp-thumbs">
-          <img src="assets/art/machines/study-001-honda-cb750.png" alt="Honda CB750">
-          <img src="assets/art/machines/study-007-yamaha-xs650.png" alt="Yamaha XS650">
-          <img src="assets/art/machines/study-009-suzuki-gt750.png" alt="Suzuki GT750">
-          <img src="assets/art/machines/study-006-yamaha-rd350.png" alt="Yamaha RD350">
-        </div>
-      </div>
-      <div class="pdp-info">
-        <div class="pdp-study">Study 001 · FM-001-1969-HCB750</div>
-        <h1 class="pdp-title">Honda CB750</h1>
-        <div class="pdp-price">$48.00 <s>$60.00</s></div>
-        <div class="review-stars" style="color:var(--color-accent); letter-spacing:2px; margin-top:8px;">★★★★★ <span style="color:var(--color-muted); font-size:13px; letter-spacing:0;">(186 reviews)</span></div>
-
-        <p class="pdp-desc">The bike that invented the superbike. FORM's Study 001 renders the 1969 Honda CB750 — the first mass-produced inline-four with a front disc brake — in exacting draughtsman detail, from the four-into-four exhaust to every cooling fin. Printed to order on museum-grade archival stock.</p>
-
-        <table class="spec-table">
-          <tr><th>Marque</th><td>Honda</td></tr>
-          <tr><th>Model</th><td>CB750 Four</td></tr>
-          <tr><th>Year</th><td>1969</td></tr>
-          <tr><th>Engine</th><td>736cc Inline-four · SOHC</td></tr>
-          <tr><th>Origin</th><td>Japan</td></tr>
-          <tr><th>Accession</th><td>FM-001-1969-HCB750</td></tr>
-        </table>
-
-        <div class="option-group">
-          <div class="option-title">Size</div>
-          <div class="option-row">
-            <button class="option">A4 · 8×12"</button>
-            <button class="option active">A3 · 12×18"</button>
-            <button class="option">A2 · 16×24"</button>
-            <button class="option">A1 · 24×36"</button>
-          </div>
-        </div>
-
-        <div class="option-group">
-          <div class="option-title">Finish</div>
-          <div class="option-row">
-            <button class="option active">Archival Matte</button>
-            <button class="option">Fine-Art Textured</button>
-            <button class="option">Framed (Oak)</button>
-          </div>
-        </div>
-
-        <button class="btn btn-block" data-add="Study 001 · Honda CB750" style="margin-top:8px;">Add to cart — $48.00</button>
-
-        <ul class="pdp-assur">
-          <li><b>Made to order</b> — printed fresh, usually ships in 48 hours</li>
-          <li><b>Archival quality</b> — museum-grade paper &amp; pigment inks, 100+ yr lightfast</li>
-          <li><b>Free shipping</b> over $150, worldwide tracked &amp; packed flat</li>
-          <li><b>30-day guarantee</b> — if it's not right, we'll make it right</li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <div class="container" id="pdpRoot"><!-- rendered from catalog --></div>
 </section>
 
-<!-- RELATED -->
-<section class="section section-soft">
+<section class="section section-soft" id="relatedWrap" hidden>
   <div class="container">
-    <div class="section-head"><div><div class="eyebrow">From the same volume</div><h2 class="section-title">Complete the set</h2></div></div>
-    <div class="product-grid">
-      <article class="product-card">
-        <div class="product-media"><img src="assets/art/machines/study-007-yamaha-xs650.png" alt="Study 007 — Yamaha XS650"><div class="product-cta"><button class="btn btn-card" data-add="Study 007 · Yamaha XS650">Add to cart</button></div></div>
-        <a href="product.html" class="product-body"><div class="product-meta-l"><div class="product-study">Study 007 · 1968</div><div class="product-title">Yamaha XS650</div><div class="product-sub">Parallel-twin · SOHC</div></div><div class="product-price">From<b>$48</b></div></a>
-      </article>
-      <article class="product-card">
-        <div class="product-media"><img src="assets/art/machines/study-009-suzuki-gt750.png" alt="Study 009 — Suzuki GT750"><div class="product-cta"><button class="btn btn-card" data-add="Study 009 · Suzuki GT750">Add to cart</button></div></div>
-        <a href="product.html" class="product-body"><div class="product-meta-l"><div class="product-study">Study 009 · 1972</div><div class="product-title">Suzuki GT750</div><div class="product-sub">Triple · Water-cooled 2T</div></div><div class="product-price">From<b>$52</b></div></a>
-      </article>
-      <article class="product-card">
-        <div class="product-media"><img src="assets/art/machines/study-004-ducati-900ss.png" alt="Study 004 — Ducati 900 Super Sport"><div class="product-cta"><button class="btn btn-card" data-add="Study 004 · Ducati 900 Super Sport">Add to cart</button></div></div>
-        <a href="product.html" class="product-body"><div class="product-meta-l"><div class="product-study">Study 004 · 1975</div><div class="product-title">Ducati 900 Super Sport</div><div class="product-sub">L-twin · Desmodromic</div></div><div class="product-price">From<b>$52</b></div></a>
-      </article>
-    </div>
+    <div class="section-head"><div><div class="eyebrow" id="relEyebrow">From the same volume</div><h2 class="section-title">Related studies</h2></div></div>
+    <div class="product-grid" id="relatedRoot"></div>
   </div>
 </section>
 
@@ -136,14 +66,135 @@
         <div class="footer-social"><a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">YouTube</a></div>
       </div>
       <div class="footer-col"><div class="footer-col-title">The Archive</div><a href="shop.html#studies">Motorcycles · Vol. I</a><a href="shop.html#automotive">Automotive · Vol. II</a><a href="shop.html#anatomy">Mechanical Anatomy · Vol. III</a><a href="shop.html#blueprint">Blueprints · Vol. IV</a><a href="shop.html#workshop">Workshop · Vol. V</a><a href="shop.html#industrial">Industrial Icons · Vol. VI</a><a href="shop.html">Shop all</a></div>
-      <div class="footer-col"><div class="footer-col-title">Support</div><a href="#">Help Center</a><a href="#">Shipping &amp; Returns</a><a href="#">Size &amp; Paper Guide</a><a href="#">Track Order</a><a href="#">Contact</a></div>
-      <div class="footer-col"><div class="footer-col-title">Studio</div><a href="about.html">Our Story</a><a href="#">Sustainability</a><a href="#">Trade &amp; Bulk</a><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+      <div class="footer-col"><div class="footer-col-title">Support</div><a href="help.html">Help Center</a><a href="shipping-returns.html">Shipping &amp; Returns</a><a href="size-guide.html">Size &amp; Paper Guide</a><a href="track-order.html">Track Order</a><a href="contact.html">Contact</a></div>
+      <div class="footer-col"><div class="footer-col-title">Studio</div><a href="about.html">Our Story</a><a href="sustainability.html">Sustainability</a><a href="trade.html">Trade &amp; Bulk</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div>
     </div>
     <div class="footer-bottom"><span>© <span class="js-year">2026</span> FORM — The Engineering Archive. All rights reserved.</span><span>Made to order · Printed responsibly</span></div>
   </div>
 </footer>
 
 <div class="toast" id="toast"></div>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/catalog.js"></script>
+<script src="assets/js/store.js"></script>
 <script src="assets/js/form.js"></script>
+<script>
+/* ---- Product detail: render from catalog ---- */
+(function () {
+  var F = window.FORM;
+  var params = new URLSearchParams(location.search);
+  var id = params.get('study') || '001';
+  var p = F.getStudy(id) || F.getStudy('001');
+  var root = document.getElementById('pdpRoot');
+  if (!p) { root.innerHTML = '<p>Study not found. <a href="shop.html">Back to the archive</a></p>'; return; }
+  document.title = 'Study ' + p.study + ' — ' + p.title + ' | FORM';
+  var vol = F.volumes[p.volume] || {};
+  var crumbCat = '<a href="shop.html#' + (vol.slug || 'studies') + '">' + (p.volumeName || 'Studies') + '</a>';
+
+  function optionRow(kind, opts) {
+    return '<div class="option-group"><div class="option-title">' + (kind === 'size' ? 'Size' : 'Finish') + '</div>' +
+      '<div class="option-row" data-opt="' + kind + '">' +
+      opts.map(function (o, i) {
+        return '<button class="option' + (i === 0 ? ' active' : '') + '" data-val="' + o.id + '">' + o.label + '</button>';
+      }).join('') + '</div></div>';
+  }
+
+  if (p.status === 'live') {
+    var stars = '★★★★★';
+    var reviews = 40 + (p.num * 7) % 200;
+    var thumbs = (F.catalog.filter(function (c) { return c.volume === p.volume && c.status === 'live'; }))
+      .sort(function (a, b) { return (a.id === p.id ? -1 : 0) - (b.id === p.id ? -1 : 0); }).slice(0, 4);
+    root.innerHTML =
+      '<div class="breadcrumb"><a href="index.html">Home</a> / <a href="shop.html">Archive</a> / ' + crumbCat + ' / <span>Study ' + p.study + '</span></div>' +
+      '<div class="pdp">' +
+        '<div class="pdp-media">' +
+          '<div class="pdp-frame"><img id="pdpMain" src="' + p.img + '" alt="Study ' + p.study + ' — ' + p.title + '"></div>' +
+          '<div class="pdp-thumbs">' + thumbs.map(function (t) { return '<img src="' + t.img + '" alt="' + t.title + '">'; }).join('') + '</div>' +
+        '</div>' +
+        '<div class="pdp-info">' +
+          '<div class="pdp-study">Study ' + p.study + ' · ' + (p.accession || '') + '</div>' +
+          '<h1 class="pdp-title">' + p.title + '</h1>' +
+          '<div class="pdp-price"><span id="pdpPrice">' + F.money(p.price) + '</span></div>' +
+          '<div class="review-stars" style="color:var(--color-accent); letter-spacing:2px; margin-top:8px;">' + stars + ' <span style="color:var(--color-muted); font-size:13px; letter-spacing:0;">(' + reviews + ' reviews)</span></div>' +
+          '<p class="pdp-desc">' + p.desc + '</p>' +
+          '<table class="spec-table">' + p.specs.map(function (r) { return '<tr><th>' + r[0] + '</th><td>' + r[1] + '</td></tr>'; }).join('') + '</table>' +
+          optionRow('size', F.config.sizes) +
+          optionRow('finish', F.config.finishes) +
+          '<button class="btn btn-block" data-add-to-cart data-pdp data-id="' + p.id + '" style="margin-top:8px;">Add to cart — <span id="pdpBtnPrice">' + F.money(p.price) + '</span></button>' +
+          '<ul class="pdp-assur">' +
+            '<li><b>Made to order</b> — printed fresh, usually ships in 48 hours</li>' +
+            '<li><b>Archival quality</b> — museum-grade paper &amp; pigment inks, 100+ yr lightfast</li>' +
+            '<li><b>Free shipping</b> over $150, worldwide tracked &amp; packed flat</li>' +
+            '<li><b>30-day guarantee</b> — if it\'s not right, we\'ll make it right</li>' +
+          '</ul>' +
+        '</div>' +
+      '</div>';
+
+    // live price recompute on option change
+    function recompute() {
+      var s = document.querySelector('.option-row[data-opt="size"] .option.active');
+      var f = document.querySelector('.option-row[data-opt="finish"] .option.active');
+      var sd = (F.config.sizes.filter(function (o) { return o.id === s.getAttribute('data-val'); })[0] || {}).delta || 0;
+      var fd = (F.config.finishes.filter(function (o) { return o.id === f.getAttribute('data-val'); })[0] || {}).delta || 0;
+      var total = p.price + sd + fd;
+      document.getElementById('pdpPrice').textContent = F.money(total);
+      document.getElementById('pdpBtnPrice').textContent = F.money(total);
+    }
+    // wire size/finish toggles (PDP renders after form.js, so bind here)
+    document.querySelectorAll('.pdp-info .option-row').forEach(function (row) {
+      row.querySelectorAll('.option').forEach(function (opt) {
+        opt.addEventListener('click', function () {
+          row.querySelectorAll('.option').forEach(function (o) { o.classList.remove('active'); });
+          opt.classList.add('active'); recompute();
+        });
+      });
+    });
+    recompute();
+    // thumbnail swap
+    document.querySelectorAll('.pdp-thumbs img').forEach(function (t) {
+      t.addEventListener('click', function () { document.getElementById('pdpMain').src = t.src; });
+    });
+  } else {
+    // coming-soon study
+    root.innerHTML =
+      '<div class="breadcrumb"><a href="index.html">Home</a> / <a href="shop.html">Archive</a> / ' + crumbCat + ' / <span>Study ' + p.study + '</span></div>' +
+      '<div class="pdp">' +
+        '<div class="pdp-media"><div class="pdp-frame"><img src="' + p.img + '" alt="Study ' + p.study + ' — in development"></div></div>' +
+        '<div class="pdp-info">' +
+          '<div class="pdp-study">Study ' + p.study + ' · Volume ' + p.volume + '</div>' +
+          '<h1 class="pdp-title">' + p.title + '</h1>' +
+          '<p style="margin-top:8px;"><span class="badge-demo">In development</span></p>' +
+          '<p class="pdp-desc">' + p.desc + '</p>' +
+          '<div class="form-card" style="max-width:460px;">' +
+            '<div class="form-title" style="font-size:12px;letter-spacing:var(--tracking-wider);text-transform:uppercase;font-weight:700;color:var(--color-muted);margin-bottom:12px;">Notify me when it lands</div>' +
+            '<form class="ds-newsletter newsletter" data-demo="You\'re on the list — we\'ll email you when this study is released" data-source="notify-' + p.study + '" style="max-width:100%;">' +
+              '<input class="input" type="email" placeholder="Your email address" required aria-label="Email" style="border-radius:var(--radius-pill) 0 0 var(--radius-pill);">' +
+              '<button type="submit">Notify me</button>' +
+            '</form>' +
+          '</div>' +
+          '<p style="margin-top:24px;"><a href="shop.html#' + (vol.slug || 'roadmap') + '" class="btn btn-outline">Back to Volume ' + p.volume + '</a></p>' +
+        '</div>' +
+      '</div>';
+  }
+
+  // related studies
+  var rel = F.catalog.filter(function (c) { return c.volume === p.volume && c.id !== p.id && c.status === 'live'; });
+  if (rel.length < 3) rel = rel.concat(F.catalog.filter(function (c) { return c.status === 'live' && c.id !== p.id && rel.indexOf(c) < 0; }));
+  rel = rel.slice(0, p.ratio === '5-4' ? 3 : 4);
+  if (rel.length) {
+    var wrap = document.getElementById('relatedWrap');
+    wrap.hidden = false;
+    document.getElementById('relatedRoot').className = 'product-grid' + (rel[0].ratio === '5-4' ? ' product-grid--auto' : '');
+    document.getElementById('relatedRoot').innerHTML = rel.map(function (c) {
+      return '<article class="product-card" data-id="' + c.id + '">' +
+        '<div class="product-media">' + (c.badge ? '<span class="product-badge">' + c.badge + '</span>' : '') +
+          '<img src="' + c.img + '" alt="Study ' + c.study + ' — ' + c.title + '">' +
+          '<div class="product-cta"><button class="btn btn-card" data-add-to-cart data-id="' + c.id + '">Add to cart</button></div></div>' +
+        '<a href="product.html?study=' + c.id + '" class="product-body"><div class="product-meta-l"><div class="product-study">Study ' + c.study + (c.year ? ' · ' + c.year : '') + '</div><div class="product-title">' + c.title + '</div><div class="product-sub">' + c.sub + '</div></div><div class="product-price">From<b>' + F.money(c.price) + '</b></div></a>' +
+      '</article>';
+    }).join('');
+  }
+})();
+</script>
 </body>
 </html>

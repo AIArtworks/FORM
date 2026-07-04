@@ -9,8 +9,10 @@ using an archival design system: **warm paper, black draughtsman linework, and
 an archive-gold accent**, with a boxed "FORM" wordmark (Archivo display + Inter
 body).
 
-Volumes I & II — the **motorcycle studies** and the **automotive design icons**
-— are live. Aviation and architecture are scaffolded as upcoming volumes.
+Volumes I & II — the **motorcycle studies** and the **sports-car design icons**
+— are live. Volumes III–VI (Mechanical Anatomy, Blueprint, Workshop, Industrial
+Icons) are scaffolded as placeholder collections. A full client-side cart and
+checkout is wired, with Stripe + Supabase integration seams ready.
 
 > Design system structure & components adapted from the supplied design template
 > and re-skinned end-to-end to FORM's brand identity.
@@ -72,11 +74,60 @@ Tokens are CSS custom properties in `assets/css/form.css`:
 
 Motorcycle studies are the real supplied art (`assets/art/machines/*.png`, 3:2).
 Aviation, automotive, and architecture use **branded blueprint SVG placeholders**
-(`assets/art/cat-*.svg`) until real art is available — swap those files and flip
-the category cards from "Coming soon" to a live grid.
+(`assets/art/placeholder-*.svg`) until real art is available — swap those files
+and flip the collection cards from "Coming soon" to a live grid.
 
 To add a new study: drop the image in `assets/art/machines/`, then copy a
 `.product-card` block and update the image, study number, title, spec, and price.
+
+## Store, cart & checkout
+
+The store is fully client-side and works today in **demo mode** (no backend
+required). It upgrades to live payments + database by filling in one config file.
+
+**Catalogue** — `assets/js/catalog.js` is the single source of truth: all 60
+studies (19 live, 41 placeholder) with prices, specs, images and volume.
+
+**Cart** — `assets/js/store.js` handles cart state (localStorage), the slide-in
+cart drawer, add-to-cart (event-delegated on `[data-add-to-cart][data-id]`),
+money formatting, the toast, and the checkout seam.
+
+**Product pages** — `product.html?study=NNN` renders any study from the catalogue
+(spec table, size/finish pickers with live pricing, related studies). Placeholder
+studies show an "in development / notify me" state. Every product card links here.
+
+**Pages** — home · shop · about · product · **cart** · **checkout** ·
+**order-confirmation** · **search** · **account** · **help** · **shipping-returns**
+· **size-guide** · **track-order** · **contact** · **sustainability** · **trade** ·
+**privacy** · **terms**. All header/footer links resolve.
+
+## Going live (Stripe + Supabase)
+
+Nothing secret lives in this repo. To switch from demo to live:
+
+1. **Supabase** — create a project and run `supabase/schema.sql` (orders,
+   newsletter_signups, contact_messages). Copy the project URL + anon key into
+   `assets/js/config.js`.
+2. **Stripe Edge Function** — deploy the included function:
+   ```bash
+   supabase functions deploy create-checkout-session --no-verify-jwt
+   supabase secrets set STRIPE_SECRET_KEY=sk_live_...
+   supabase secrets set SITE_URL=https://your-domain SUPABASE_URL=https://xxx.supabase.co SUPABASE_SERVICE_ROLE_KEY=...
+   ```
+   Paste the function URL into `config.js -> checkoutEndpoint`.
+3. **Stripe key** — add your `pk_live_…` (or `pk_test_…`) to
+   `config.js -> stripePublishableKey`.
+
+Once `checkoutEndpoint` + `stripePublishableKey` are set, checkout posts the cart
+to the Edge Function, which creates a Stripe Checkout Session and redirects the
+customer to pay; Stripe returns them to `order-confirmation.html`. Until then,
+checkout records a local demo order so the whole flow is testable. Newsletter,
+contact, and trade forms insert into Supabase when configured (else no-op).
+
+> ⚠️ GitHub Pages is static and cannot run server code or hold secret keys — the
+> Stripe secret lives only in the Supabase Edge Function. If you later want the
+> whole site on one platform, Vercel/Netlify/Cloudflare can host both the static
+> site and the serverless checkout endpoint.
 
 ## Run locally
 

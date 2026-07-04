@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout | FORM</title>
+<meta name="description" content="Complete your FORM order — secure checkout.">
+<link rel="icon" href="assets/art/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700;1,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+<div class="scroll-indicator" id="scrollIndicator"></div>
+
+<div class="announce">Volume II — Automotive design icons — now live &nbsp;·&nbsp; <b>Free worldwide shipping</b> over $150</div>
+
+<header class="site-header">
+  <nav class="nav">
+    <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <a href="index.html" class="nav-logo"><span class="logo-box">FORM</span></a>
+    <ul class="nav-menu">
+      <li><a href="shop.html">The Archive</a></li>
+      <li><a href="shop.html#studies">Motorcycles</a></li>
+      <li><a href="shop.html#automotive">Sports Cars</a></li>
+      <li><a href="shop.html#roadmap">Roadmap</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="nav-icons">
+      <a href="search.html" class="nav-search">Search</a>
+      <a href="account.html" class="nav-account">Account</a>
+      <a href="cart.html" class="nav-cart">Cart (<b class="cart-count">0</b>)</a>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-menu">
+  <button class="mobile-menu-close" aria-label="Close menu">&times;</button>
+  <a href="shop.html">The Archive</a>
+  <a href="shop.html#studies">Motorcycles</a>
+  <a href="shop.html#automotive">Sports Cars</a>
+  <a href="shop.html#roadmap">Roadmap</a>
+  <a href="about.html">About</a>
+  <a href="search.html">Search</a>
+  <a href="account.html">Account</a>
+</div>
+
+<section class="page-head"><div class="eyebrow">Secure checkout</div><h1><em>Checkout</em></h1></section>
+<section class="section"><div class="container"><div class="checkout-grid">
+  <div>
+    <form id="checkoutForm" class="form-card">
+      <div class="field"><label class="label">Email</label><input class="input" type="email" name="email" required></div>
+      <div class="form-row2">
+        <div class="field"><label class="label">First name</label><input class="input" name="first" required></div>
+        <div class="field"><label class="label">Last name</label><input class="input" name="last" required></div>
+      </div>
+      <div class="field"><label class="label">Address</label><input class="input" name="address" required></div>
+      <div class="form-row2">
+        <div class="field"><label class="label">City</label><input class="input" name="city" required></div>
+        <div class="field"><label class="label">Postcode</label><input class="input" name="postcode" required></div>
+      </div>
+      <div class="field"><label class="label">Country</label><input class="input" name="country" required></div>
+      <button type="submit" class="btn btn-block" id="payBtn" style="margin-top:8px;">Pay now</button>
+      <p class="pay-note" id="payNote"></p>
+    </form>
+  </div>
+  <div><div class="summary-card" id="checkoutSummary"></div></div>
+</div></div></section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo-box">FORM</div>
+        <p class="footer-tag">The engineering archive. Hand-detailed studies of the machines and structures that shaped the modern world — printed to order on museum-grade paper.</p>
+        <div class="footer-social"><a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">YouTube</a></div>
+      </div>
+      <div class="footer-col"><div class="footer-col-title">The Archive</div><a href="shop.html#studies">Motorcycles · Vol. I</a><a href="shop.html#automotive">Automotive · Vol. II</a><a href="shop.html#anatomy">Mechanical Anatomy · Vol. III</a><a href="shop.html#blueprint">Blueprints · Vol. IV</a><a href="shop.html#workshop">Workshop · Vol. V</a><a href="shop.html#industrial">Industrial Icons · Vol. VI</a><a href="shop.html">Shop all</a></div>
+      <div class="footer-col"><div class="footer-col-title">Support</div><a href="help.html">Help Center</a><a href="shipping-returns.html">Shipping &amp; Returns</a><a href="size-guide.html">Size &amp; Paper Guide</a><a href="track-order.html">Track Order</a><a href="contact.html">Contact</a></div>
+      <div class="footer-col"><div class="footer-col-title">Studio</div><a href="about.html">Our Story</a><a href="sustainability.html">Sustainability</a><a href="trade.html">Trade &amp; Bulk</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div>
+    </div>
+    <div class="footer-bottom"><span>© <span class="js-year">2026</span> FORM — The Engineering Archive. All rights reserved.</span><span>Made to order · Printed responsibly</span></div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/catalog.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/form.js"></script>
+<script>
+(function(){var F=window.FORM;var sumEl=document.getElementById('checkoutSummary');var note=document.getElementById('payNote');var btn=document.getElementById('payBtn');
+var items=F.cart.items();
+if(!items.length){location.replace('cart.html');return;}
+var sz=F.config.sizes,fn=F.config.finishes;function lbl(a,id){return (a.filter(function(o){return o.id===id;})[0]||a[0]).label;}
+var sub=F.cart.subtotal();var ship=sub>=F.config.freeShippingThreshold?0:F.config.shippingFlat;
+sumEl.innerHTML='<div class="summary-line" style="border-bottom:none;font-weight:700;text-transform:uppercase;letter-spacing:var(--tracking-wide);">Order summary</div>'
+ +items.map(function(i){var p=F.getStudy(i.id);return '<div class="summary-line"><span>'+i.qty+'× '+p.title+'<br><span style="color:var(--color-muted);font-size:12px;">'+lbl(sz,i.size)+' · '+lbl(fn,i.finish)+'</span></span><b>'+F.money(F.cart.unitPrice(i)*i.qty)+'</b></div>';}).join('')
+ +'<div class="summary-line"><span>Shipping</span><b>'+(ship===0?'Free':F.money(ship))+'</b></div>'
+ +'<div class="summary-tot"><span>Total</span><span>'+F.money(sub+ship)+'</span></div>';
+if(F.config.isLive){btn.textContent='Pay '+F.money(sub+ship)+' with Stripe';note.textContent='You will be redirected to Stripe to complete payment securely.';}
+else{btn.innerHTML='Place demo order — '+F.money(sub+ship);note.innerHTML='<span class="badge-demo">Demo mode</span> Payments are not yet connected. Add your Stripe + Supabase keys in assets/js/config.js to take real payments. This button completes a local demo order so the full flow is testable.';}
+document.getElementById('checkoutForm').addEventListener('submit',function(e){e.preventDefault();var fd=new FormData(e.target);var customer={email:fd.get('email'),name:fd.get('first')+' '+fd.get('last'),address:fd.get('address'),city:fd.get('city'),postcode:fd.get('postcode'),country:fd.get('country')};btn.disabled=true;btn.textContent='Processing…';F.checkout.start(customer).catch(function(err){btn.disabled=false;btn.textContent='Pay now';note.textContent='Something went wrong starting checkout: '+err.message;});});
+})();
+</script>
+</body>
+</html>
