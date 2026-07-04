@@ -6,14 +6,14 @@ FORM.volumes = {
     "slug": "studies",
     "status": "live",
     "ratio": "3-2",
-    "purpose": "Landmark motorcycles presented as industrial sculpture."
+    "purpose": "Curated for aesthetic merit rather than rarity or price, Volume I celebrates the motorcycles that changed industrial design. Each study treats the machine as sculpture — tank shape, engine architecture, frame geometry, stance and brightwork — drawn with obsessive attention to the details that make each machine unmistakably itself. Ten icons from the golden age of the motorcycle, 1959–1980."
   },
   "II": {
     "name": "Automotive Design Icons",
     "slug": "automotive",
     "status": "live",
     "ratio": "5-4",
-    "purpose": "Classic sports cars as objects of sculptural beauty."
+    "purpose": "Volume II gathers the cars that earned immortality through proportion, surfacing and silhouette — not lap times. Each study presents the car as an object of sculptural beauty: the glasshouse, the wheel-arch line, the shut lines and brightwork, and the tension between elegance and performance — captured from the single most flattering angle for that exact car."
   },
   "III": {
     "name": "Engine Icons",
@@ -21,7 +21,7 @@ FORM.volumes = {
     "status": "soon",
     "ratio": "3-2",
     "img": "placeholder-anatomy.svg",
-    "purpose": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design."
+    "purpose": "Volume III opens the machine. Engines and assemblies are treated as artefact and artwork at once — castings, fins, pipework, fasteners and the visual rhythm of components — revealing the mechanical logic usually hidden beneath bodywork. From the 300SL spaceframe to the Cosworth DFV, this is the engineering behind the icons."
   },
   "IV": {
     "name": "Blueprint Collection",
@@ -29,7 +29,7 @@ FORM.volumes = {
     "status": "soon",
     "ratio": "3-2",
     "img": "placeholder-blueprint.svg",
-    "purpose": "Icons of design rendered as measured, orthographic archival plates."
+    "purpose": "Icons of design translated into measured archival plates. Volume IV renders objects like the Leica M3 and the Eames Lounge Chair in precise orthographic views — measured linework, sectional detail and balanced composition — so the defining geometry of each object reads at a glance, the way a draughtsman would have recorded it."
   },
   "V": {
     "name": "Workshop Collection",
@@ -37,7 +37,7 @@ FORM.volumes = {
     "status": "soon",
     "ratio": "3-2",
     "img": "placeholder-workshop.svg",
-    "purpose": "The tools and machines behind exceptional craftsmanship — utility as industrial design."
+    "purpose": "A tribute to the tools behind exceptional craftsmanship. Volume V presents lathes, mills, vises and measuring instruments as masterworks of utility — cast iron, knurled steel, machined faces and dials drawn with the same reverence usually reserved for the machines they build and maintain. Function made visible through form."
   },
   "VI": {
     "name": "Patent Collection",
@@ -45,7 +45,7 @@ FORM.volumes = {
     "status": "soon",
     "ratio": "3-2",
     "img": "placeholder-patent.svg",
-    "purpose": "Historic patent drawings, reimagined as gallery-grade archival plates."
+    "purpose": "Where invention became property. Volume VI reimagines historic patent sheets — the Vespa, the Coca-Cola contour bottle, the Zippo — as gallery-grade plates: legal-drawing precision, elegant sheet composition and the formal ingenuity that justified the original patent, elevated for the wall."
   },
   "VII": {
     "name": "World's Greatest Roads",
@@ -53,7 +53,7 @@ FORM.volumes = {
     "status": "soon",
     "ratio": "3-2",
     "img": "placeholder-roads.svg",
-    "purpose": "The road itself as the design object — line, curvature and engineering in the landscape."
+    "purpose": "The only volume drawn at landscape scale. Volume VII celebrates the road itself as the design object — line, curvature, camber, elevation and the engineering that carries it over passes and along coastlines. From the Stelvio switchbacks to the Atlantic Ocean Road, the route is the protagonist; everything else is scenery."
   },
   "VIII": {
     "name": "Industrial Icons",
@@ -61,7 +61,7 @@ FORM.volumes = {
     "status": "soon",
     "ratio": "3-2",
     "img": "placeholder-industrial.svg",
-    "purpose": "Timeless industrial design beyond transport."
+    "purpose": "Timeless industrial design beyond transport. Volume VIII portrays the objects that put great design into everyday hands — Braun radios, the K6 telephone box, the Moka Express — celebrating proportion, material honesty and the interface clarity that made them unforgettable."
   },
   "IX": {
     "name": "Aviation",
@@ -69,7 +69,7 @@ FORM.volumes = {
     "status": "soon",
     "ratio": "3-2",
     "img": "placeholder-aviation.svg",
-    "purpose": "Aircraft that defined aerodynamic identity and structural elegance."
+    "purpose": "Aircraft that defined aerodynamic identity. Volume IX studies wing planform, fuselage line, canopy shape, nacelles and rivet rhythm — the structural elegance that distinguishes a Spitfire from every other aeroplane — each drawn from the viewpoint that best serves its design, from pure side elevation to revealed planform."
   },
   "X": {
     "name": "Industrial Heritage",
@@ -77,7 +77,7 @@ FORM.volumes = {
     "status": "soon",
     "ratio": "3-2",
     "img": "placeholder-heritage.svg",
-    "purpose": "Monumental industrial sites as design history and cultural artefact."
+    "purpose": "The volume of places. Volume X documents monumental industrial sites — power stations, coal complexes, dockyards and gasometers — as design history embedded in the landscape: architectural massing, structural rhythm, material weathering and the beauty of industry as cultural artefact."
   }
 };
 
@@ -414,7 +414,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Landmark motorcycles presented as industrial sculpture. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Curated for aesthetic merit rather than rarity or price, Volume I celebrates the motorcycles that changed industrial design. Each study treats the machine as sculpture — tank shape, engine architecture, frame geometry, stance and brightwork — drawn with obsessive attention to the details that make each machine unmistakably itself. Ten icons from the golden age of the motorcycle, 1959–1980. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -983,7 +983,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Classic sports cars as objects of sculptural beauty. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume II gathers the cars that earned immortality through proportion, surfacing and silhouette — not lap times. Each study presents the car as an object of sculptural beauty: the glasshouse, the wheel-arch line, the shut lines and brightwork, and the tension between elegance and performance — captured from the single most flattering angle for that exact car. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1012,7 +1012,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Classic sports cars as objects of sculptural beauty. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume II gathers the cars that earned immortality through proportion, surfacing and silhouette — not lap times. Each study presents the car as an object of sculptural beauty: the glasshouse, the wheel-arch line, the shut lines and brightwork, and the tension between elegance and performance — captured from the single most flattering angle for that exact car. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1041,7 +1041,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Classic sports cars as objects of sculptural beauty. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume II gathers the cars that earned immortality through proportion, surfacing and silhouette — not lap times. Each study presents the car as an object of sculptural beauty: the glasshouse, the wheel-arch line, the shut lines and brightwork, and the tension between elegance and performance — captured from the single most flattering angle for that exact car. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1070,7 +1070,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Classic sports cars as objects of sculptural beauty. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume II gathers the cars that earned immortality through proportion, surfacing and silhouette — not lap times. Each study presents the car as an object of sculptural beauty: the glasshouse, the wheel-arch line, the shut lines and brightwork, and the tension between elegance and performance — captured from the single most flattering angle for that exact car. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1099,7 +1099,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume III opens the machine. Engines and assemblies are treated as artefact and artwork at once — castings, fins, pipework, fasteners and the visual rhythm of components — revealing the mechanical logic usually hidden beneath bodywork. From the 300SL spaceframe to the Cosworth DFV, this is the engineering behind the icons. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1128,7 +1128,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume III opens the machine. Engines and assemblies are treated as artefact and artwork at once — castings, fins, pipework, fasteners and the visual rhythm of components — revealing the mechanical logic usually hidden beneath bodywork. From the 300SL spaceframe to the Cosworth DFV, this is the engineering behind the icons. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1157,7 +1157,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume III opens the machine. Engines and assemblies are treated as artefact and artwork at once — castings, fins, pipework, fasteners and the visual rhythm of components — revealing the mechanical logic usually hidden beneath bodywork. From the 300SL spaceframe to the Cosworth DFV, this is the engineering behind the icons. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1186,7 +1186,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume III opens the machine. Engines and assemblies are treated as artefact and artwork at once — castings, fins, pipework, fasteners and the visual rhythm of components — revealing the mechanical logic usually hidden beneath bodywork. From the 300SL spaceframe to the Cosworth DFV, this is the engineering behind the icons. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1215,7 +1215,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume III opens the machine. Engines and assemblies are treated as artefact and artwork at once — castings, fins, pipework, fasteners and the visual rhythm of components — revealing the mechanical logic usually hidden beneath bodywork. From the 300SL spaceframe to the Cosworth DFV, this is the engineering behind the icons. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1244,7 +1244,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume III opens the machine. Engines and assemblies are treated as artefact and artwork at once — castings, fins, pipework, fasteners and the visual rhythm of components — revealing the mechanical logic usually hidden beneath bodywork. From the 300SL spaceframe to the Cosworth DFV, this is the engineering behind the icons. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1273,7 +1273,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume III opens the machine. Engines and assemblies are treated as artefact and artwork at once — castings, fins, pipework, fasteners and the visual rhythm of components — revealing the mechanical logic usually hidden beneath bodywork. From the 300SL spaceframe to the Cosworth DFV, this is the engineering behind the icons. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1302,7 +1302,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume III opens the machine. Engines and assemblies are treated as artefact and artwork at once — castings, fins, pipework, fasteners and the visual rhythm of components — revealing the mechanical logic usually hidden beneath bodywork. From the 300SL spaceframe to the Cosworth DFV, this is the engineering behind the icons. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1331,7 +1331,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume III opens the machine. Engines and assemblies are treated as artefact and artwork at once — castings, fins, pipework, fasteners and the visual rhythm of components — revealing the mechanical logic usually hidden beneath bodywork. From the 300SL spaceframe to the Cosworth DFV, this is the engineering behind the icons. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1360,7 +1360,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Volume III opens the machine. Engines and assemblies are treated as artefact and artwork at once — castings, fins, pipework, fasteners and the visual rhythm of components — revealing the mechanical logic usually hidden beneath bodywork. From the 300SL spaceframe to the Cosworth DFV, this is the engineering behind the icons. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1389,7 +1389,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design translated into measured archival plates. Volume IV renders objects like the Leica M3 and the Eames Lounge Chair in precise orthographic views — measured linework, sectional detail and balanced composition — so the defining geometry of each object reads at a glance, the way a draughtsman would have recorded it. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1418,7 +1418,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design translated into measured archival plates. Volume IV renders objects like the Leica M3 and the Eames Lounge Chair in precise orthographic views — measured linework, sectional detail and balanced composition — so the defining geometry of each object reads at a glance, the way a draughtsman would have recorded it. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1447,7 +1447,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design translated into measured archival plates. Volume IV renders objects like the Leica M3 and the Eames Lounge Chair in precise orthographic views — measured linework, sectional detail and balanced composition — so the defining geometry of each object reads at a glance, the way a draughtsman would have recorded it. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1476,7 +1476,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design translated into measured archival plates. Volume IV renders objects like the Leica M3 and the Eames Lounge Chair in precise orthographic views — measured linework, sectional detail and balanced composition — so the defining geometry of each object reads at a glance, the way a draughtsman would have recorded it. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1505,7 +1505,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design translated into measured archival plates. Volume IV renders objects like the Leica M3 and the Eames Lounge Chair in precise orthographic views — measured linework, sectional detail and balanced composition — so the defining geometry of each object reads at a glance, the way a draughtsman would have recorded it. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1534,7 +1534,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design translated into measured archival plates. Volume IV renders objects like the Leica M3 and the Eames Lounge Chair in precise orthographic views — measured linework, sectional detail and balanced composition — so the defining geometry of each object reads at a glance, the way a draughtsman would have recorded it. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1563,7 +1563,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design translated into measured archival plates. Volume IV renders objects like the Leica M3 and the Eames Lounge Chair in precise orthographic views — measured linework, sectional detail and balanced composition — so the defining geometry of each object reads at a glance, the way a draughtsman would have recorded it. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1592,7 +1592,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design translated into measured archival plates. Volume IV renders objects like the Leica M3 and the Eames Lounge Chair in precise orthographic views — measured linework, sectional detail and balanced composition — so the defining geometry of each object reads at a glance, the way a draughtsman would have recorded it. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1621,7 +1621,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design translated into measured archival plates. Volume IV renders objects like the Leica M3 and the Eames Lounge Chair in precise orthographic views — measured linework, sectional detail and balanced composition — so the defining geometry of each object reads at a glance, the way a draughtsman would have recorded it. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1650,7 +1650,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design translated into measured archival plates. Volume IV renders objects like the Leica M3 and the Eames Lounge Chair in precise orthographic views — measured linework, sectional detail and balanced composition — so the defining geometry of each object reads at a glance, the way a draughtsman would have recorded it. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1679,7 +1679,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "A tribute to the tools behind exceptional craftsmanship. Volume V presents lathes, mills, vises and measuring instruments as masterworks of utility — cast iron, knurled steel, machined faces and dials drawn with the same reverence usually reserved for the machines they build and maintain. Function made visible through form. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1708,7 +1708,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "A tribute to the tools behind exceptional craftsmanship. Volume V presents lathes, mills, vises and measuring instruments as masterworks of utility — cast iron, knurled steel, machined faces and dials drawn with the same reverence usually reserved for the machines they build and maintain. Function made visible through form. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1737,7 +1737,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "A tribute to the tools behind exceptional craftsmanship. Volume V presents lathes, mills, vises and measuring instruments as masterworks of utility — cast iron, knurled steel, machined faces and dials drawn with the same reverence usually reserved for the machines they build and maintain. Function made visible through form. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1766,7 +1766,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "A tribute to the tools behind exceptional craftsmanship. Volume V presents lathes, mills, vises and measuring instruments as masterworks of utility — cast iron, knurled steel, machined faces and dials drawn with the same reverence usually reserved for the machines they build and maintain. Function made visible through form. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1795,7 +1795,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "A tribute to the tools behind exceptional craftsmanship. Volume V presents lathes, mills, vises and measuring instruments as masterworks of utility — cast iron, knurled steel, machined faces and dials drawn with the same reverence usually reserved for the machines they build and maintain. Function made visible through form. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1824,7 +1824,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "A tribute to the tools behind exceptional craftsmanship. Volume V presents lathes, mills, vises and measuring instruments as masterworks of utility — cast iron, knurled steel, machined faces and dials drawn with the same reverence usually reserved for the machines they build and maintain. Function made visible through form. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1853,7 +1853,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "A tribute to the tools behind exceptional craftsmanship. Volume V presents lathes, mills, vises and measuring instruments as masterworks of utility — cast iron, knurled steel, machined faces and dials drawn with the same reverence usually reserved for the machines they build and maintain. Function made visible through form. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1882,7 +1882,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "A tribute to the tools behind exceptional craftsmanship. Volume V presents lathes, mills, vises and measuring instruments as masterworks of utility — cast iron, knurled steel, machined faces and dials drawn with the same reverence usually reserved for the machines they build and maintain. Function made visible through form. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1911,7 +1911,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "A tribute to the tools behind exceptional craftsmanship. Volume V presents lathes, mills, vises and measuring instruments as masterworks of utility — cast iron, knurled steel, machined faces and dials drawn with the same reverence usually reserved for the machines they build and maintain. Function made visible through form. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1940,7 +1940,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
+  "desc": "A tribute to the tools behind exceptional craftsmanship. Volume V presents lathes, mills, vises and measuring instruments as masterworks of utility — cast iron, knurled steel, machined faces and dials drawn with the same reverence usually reserved for the machines they build and maintain. Function made visible through form. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1969,7 +1969,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Where invention became property. Volume VI reimagines historic patent sheets — the Vespa, the Coca-Cola contour bottle, the Zippo — as gallery-grade plates: legal-drawing precision, elegant sheet composition and the formal ingenuity that justified the original patent, elevated for the wall. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1998,7 +1998,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Where invention became property. Volume VI reimagines historic patent sheets — the Vespa, the Coca-Cola contour bottle, the Zippo — as gallery-grade plates: legal-drawing precision, elegant sheet composition and the formal ingenuity that justified the original patent, elevated for the wall. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2027,7 +2027,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Where invention became property. Volume VI reimagines historic patent sheets — the Vespa, the Coca-Cola contour bottle, the Zippo — as gallery-grade plates: legal-drawing precision, elegant sheet composition and the formal ingenuity that justified the original patent, elevated for the wall. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2056,7 +2056,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Where invention became property. Volume VI reimagines historic patent sheets — the Vespa, the Coca-Cola contour bottle, the Zippo — as gallery-grade plates: legal-drawing precision, elegant sheet composition and the formal ingenuity that justified the original patent, elevated for the wall. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2085,7 +2085,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Where invention became property. Volume VI reimagines historic patent sheets — the Vespa, the Coca-Cola contour bottle, the Zippo — as gallery-grade plates: legal-drawing precision, elegant sheet composition and the formal ingenuity that justified the original patent, elevated for the wall. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2114,7 +2114,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Where invention became property. Volume VI reimagines historic patent sheets — the Vespa, the Coca-Cola contour bottle, the Zippo — as gallery-grade plates: legal-drawing precision, elegant sheet composition and the formal ingenuity that justified the original patent, elevated for the wall. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2143,7 +2143,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Where invention became property. Volume VI reimagines historic patent sheets — the Vespa, the Coca-Cola contour bottle, the Zippo — as gallery-grade plates: legal-drawing precision, elegant sheet composition and the formal ingenuity that justified the original patent, elevated for the wall. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2172,7 +2172,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Where invention became property. Volume VI reimagines historic patent sheets — the Vespa, the Coca-Cola contour bottle, the Zippo — as gallery-grade plates: legal-drawing precision, elegant sheet composition and the formal ingenuity that justified the original patent, elevated for the wall. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2201,7 +2201,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Where invention became property. Volume VI reimagines historic patent sheets — the Vespa, the Coca-Cola contour bottle, the Zippo — as gallery-grade plates: legal-drawing precision, elegant sheet composition and the formal ingenuity that justified the original patent, elevated for the wall. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2230,7 +2230,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Where invention became property. Volume VI reimagines historic patent sheets — the Vespa, the Coca-Cola contour bottle, the Zippo — as gallery-grade plates: legal-drawing precision, elegant sheet composition and the formal ingenuity that justified the original patent, elevated for the wall. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2259,7 +2259,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The only volume drawn at landscape scale. Volume VII celebrates the road itself as the design object — line, curvature, camber, elevation and the engineering that carries it over passes and along coastlines. From the Stelvio switchbacks to the Atlantic Ocean Road, the route is the protagonist; everything else is scenery. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2288,7 +2288,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The only volume drawn at landscape scale. Volume VII celebrates the road itself as the design object — line, curvature, camber, elevation and the engineering that carries it over passes and along coastlines. From the Stelvio switchbacks to the Atlantic Ocean Road, the route is the protagonist; everything else is scenery. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2317,7 +2317,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The only volume drawn at landscape scale. Volume VII celebrates the road itself as the design object — line, curvature, camber, elevation and the engineering that carries it over passes and along coastlines. From the Stelvio switchbacks to the Atlantic Ocean Road, the route is the protagonist; everything else is scenery. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2346,7 +2346,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The only volume drawn at landscape scale. Volume VII celebrates the road itself as the design object — line, curvature, camber, elevation and the engineering that carries it over passes and along coastlines. From the Stelvio switchbacks to the Atlantic Ocean Road, the route is the protagonist; everything else is scenery. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2375,7 +2375,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The only volume drawn at landscape scale. Volume VII celebrates the road itself as the design object — line, curvature, camber, elevation and the engineering that carries it over passes and along coastlines. From the Stelvio switchbacks to the Atlantic Ocean Road, the route is the protagonist; everything else is scenery. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2404,7 +2404,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The only volume drawn at landscape scale. Volume VII celebrates the road itself as the design object — line, curvature, camber, elevation and the engineering that carries it over passes and along coastlines. From the Stelvio switchbacks to the Atlantic Ocean Road, the route is the protagonist; everything else is scenery. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2433,7 +2433,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The only volume drawn at landscape scale. Volume VII celebrates the road itself as the design object — line, curvature, camber, elevation and the engineering that carries it over passes and along coastlines. From the Stelvio switchbacks to the Atlantic Ocean Road, the route is the protagonist; everything else is scenery. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2462,7 +2462,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The only volume drawn at landscape scale. Volume VII celebrates the road itself as the design object — line, curvature, camber, elevation and the engineering that carries it over passes and along coastlines. From the Stelvio switchbacks to the Atlantic Ocean Road, the route is the protagonist; everything else is scenery. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2491,7 +2491,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The only volume drawn at landscape scale. Volume VII celebrates the road itself as the design object — line, curvature, camber, elevation and the engineering that carries it over passes and along coastlines. From the Stelvio switchbacks to the Atlantic Ocean Road, the route is the protagonist; everything else is scenery. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2520,7 +2520,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The only volume drawn at landscape scale. Volume VII celebrates the road itself as the design object — line, curvature, camber, elevation and the engineering that carries it over passes and along coastlines. From the Stelvio switchbacks to the Atlantic Ocean Road, the route is the protagonist; everything else is scenery. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2549,7 +2549,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Timeless industrial design beyond transport. Volume VIII portrays the objects that put great design into everyday hands — Braun radios, the K6 telephone box, the Moka Express — celebrating proportion, material honesty and the interface clarity that made them unforgettable. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2578,7 +2578,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Timeless industrial design beyond transport. Volume VIII portrays the objects that put great design into everyday hands — Braun radios, the K6 telephone box, the Moka Express — celebrating proportion, material honesty and the interface clarity that made them unforgettable. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2607,7 +2607,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Timeless industrial design beyond transport. Volume VIII portrays the objects that put great design into everyday hands — Braun radios, the K6 telephone box, the Moka Express — celebrating proportion, material honesty and the interface clarity that made them unforgettable. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2636,7 +2636,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Timeless industrial design beyond transport. Volume VIII portrays the objects that put great design into everyday hands — Braun radios, the K6 telephone box, the Moka Express — celebrating proportion, material honesty and the interface clarity that made them unforgettable. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2665,7 +2665,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Timeless industrial design beyond transport. Volume VIII portrays the objects that put great design into everyday hands — Braun radios, the K6 telephone box, the Moka Express — celebrating proportion, material honesty and the interface clarity that made them unforgettable. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2694,7 +2694,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Timeless industrial design beyond transport. Volume VIII portrays the objects that put great design into everyday hands — Braun radios, the K6 telephone box, the Moka Express — celebrating proportion, material honesty and the interface clarity that made them unforgettable. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2723,7 +2723,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Timeless industrial design beyond transport. Volume VIII portrays the objects that put great design into everyday hands — Braun radios, the K6 telephone box, the Moka Express — celebrating proportion, material honesty and the interface clarity that made them unforgettable. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2752,7 +2752,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Timeless industrial design beyond transport. Volume VIII portrays the objects that put great design into everyday hands — Braun radios, the K6 telephone box, the Moka Express — celebrating proportion, material honesty and the interface clarity that made them unforgettable. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2781,7 +2781,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Timeless industrial design beyond transport. Volume VIII portrays the objects that put great design into everyday hands — Braun radios, the K6 telephone box, the Moka Express — celebrating proportion, material honesty and the interface clarity that made them unforgettable. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2810,7 +2810,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Timeless industrial design beyond transport. Volume VIII portrays the objects that put great design into everyday hands — Braun radios, the K6 telephone box, the Moka Express — celebrating proportion, material honesty and the interface clarity that made them unforgettable. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2839,7 +2839,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Aircraft that defined aerodynamic identity. Volume IX studies wing planform, fuselage line, canopy shape, nacelles and rivet rhythm — the structural elegance that distinguishes a Spitfire from every other aeroplane — each drawn from the viewpoint that best serves its design, from pure side elevation to revealed planform. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2868,7 +2868,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Aircraft that defined aerodynamic identity. Volume IX studies wing planform, fuselage line, canopy shape, nacelles and rivet rhythm — the structural elegance that distinguishes a Spitfire from every other aeroplane — each drawn from the viewpoint that best serves its design, from pure side elevation to revealed planform. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2897,7 +2897,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Aircraft that defined aerodynamic identity. Volume IX studies wing planform, fuselage line, canopy shape, nacelles and rivet rhythm — the structural elegance that distinguishes a Spitfire from every other aeroplane — each drawn from the viewpoint that best serves its design, from pure side elevation to revealed planform. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2926,7 +2926,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Aircraft that defined aerodynamic identity. Volume IX studies wing planform, fuselage line, canopy shape, nacelles and rivet rhythm — the structural elegance that distinguishes a Spitfire from every other aeroplane — each drawn from the viewpoint that best serves its design, from pure side elevation to revealed planform. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2955,7 +2955,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Aircraft that defined aerodynamic identity. Volume IX studies wing planform, fuselage line, canopy shape, nacelles and rivet rhythm — the structural elegance that distinguishes a Spitfire from every other aeroplane — each drawn from the viewpoint that best serves its design, from pure side elevation to revealed planform. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -2984,7 +2984,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Aircraft that defined aerodynamic identity. Volume IX studies wing planform, fuselage line, canopy shape, nacelles and rivet rhythm — the structural elegance that distinguishes a Spitfire from every other aeroplane — each drawn from the viewpoint that best serves its design, from pure side elevation to revealed planform. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3013,7 +3013,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Aircraft that defined aerodynamic identity. Volume IX studies wing planform, fuselage line, canopy shape, nacelles and rivet rhythm — the structural elegance that distinguishes a Spitfire from every other aeroplane — each drawn from the viewpoint that best serves its design, from pure side elevation to revealed planform. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3042,7 +3042,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Aircraft that defined aerodynamic identity. Volume IX studies wing planform, fuselage line, canopy shape, nacelles and rivet rhythm — the structural elegance that distinguishes a Spitfire from every other aeroplane — each drawn from the viewpoint that best serves its design, from pure side elevation to revealed planform. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3071,7 +3071,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Aircraft that defined aerodynamic identity. Volume IX studies wing planform, fuselage line, canopy shape, nacelles and rivet rhythm — the structural elegance that distinguishes a Spitfire from every other aeroplane — each drawn from the viewpoint that best serves its design, from pure side elevation to revealed planform. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3100,7 +3100,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Aircraft that defined aerodynamic identity. Volume IX studies wing planform, fuselage line, canopy shape, nacelles and rivet rhythm — the structural elegance that distinguishes a Spitfire from every other aeroplane — each drawn from the viewpoint that best serves its design, from pure side elevation to revealed planform. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3129,7 +3129,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The volume of places. Volume X documents monumental industrial sites — power stations, coal complexes, dockyards and gasometers — as design history embedded in the landscape: architectural massing, structural rhythm, material weathering and the beauty of industry as cultural artefact. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3158,7 +3158,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The volume of places. Volume X documents monumental industrial sites — power stations, coal complexes, dockyards and gasometers — as design history embedded in the landscape: architectural massing, structural rhythm, material weathering and the beauty of industry as cultural artefact. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3187,7 +3187,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The volume of places. Volume X documents monumental industrial sites — power stations, coal complexes, dockyards and gasometers — as design history embedded in the landscape: architectural massing, structural rhythm, material weathering and the beauty of industry as cultural artefact. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3216,7 +3216,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The volume of places. Volume X documents monumental industrial sites — power stations, coal complexes, dockyards and gasometers — as design history embedded in the landscape: architectural massing, structural rhythm, material weathering and the beauty of industry as cultural artefact. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3245,7 +3245,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The volume of places. Volume X documents monumental industrial sites — power stations, coal complexes, dockyards and gasometers — as design history embedded in the landscape: architectural massing, structural rhythm, material weathering and the beauty of industry as cultural artefact. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3274,7 +3274,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The volume of places. Volume X documents monumental industrial sites — power stations, coal complexes, dockyards and gasometers — as design history embedded in the landscape: architectural massing, structural rhythm, material weathering and the beauty of industry as cultural artefact. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3303,7 +3303,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The volume of places. Volume X documents monumental industrial sites — power stations, coal complexes, dockyards and gasometers — as design history embedded in the landscape: architectural massing, structural rhythm, material weathering and the beauty of industry as cultural artefact. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3332,7 +3332,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The volume of places. Volume X documents monumental industrial sites — power stations, coal complexes, dockyards and gasometers — as design history embedded in the landscape: architectural massing, structural rhythm, material weathering and the beauty of industry as cultural artefact. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3361,7 +3361,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The volume of places. Volume X documents monumental industrial sites — power stations, coal complexes, dockyards and gasometers — as design history embedded in the landscape: architectural massing, structural rhythm, material weathering and the beauty of industry as cultural artefact. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -3390,7 +3390,7 @@ FORM.catalog = [
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The volume of places. Volume X documents monumental industrial sites — power stations, coal complexes, dockyards and gasometers — as design history embedded in the landscape: architectural massing, structural rhythm, material weathering and the beauty of industry as cultural artefact. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",

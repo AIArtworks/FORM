@@ -520,3 +520,6 @@ a.frame:hover { transform: translateY(-4px); }
   .pdp-stickybar-price b { font-size: 18px; font-family: var(--font-display); }
   body.has-stickybar { padding-bottom: 78px; }
 }
+
+/* Volume intro meta line */
+.volume-meta { font-size: 12px; font-weight: var(--fw-bold); text-transform: uppercase; letter-spacing: var(--tracking-wide); color: var(--color-accent); margin-top: 10px; }
