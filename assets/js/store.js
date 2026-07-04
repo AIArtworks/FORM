@@ -120,7 +120,12 @@
     body.innerHTML = items.map(lineRow).join('');
     var sub = Cart.subtotal();
     var ship = sub >= cfg.freeShippingThreshold ? 0 : cfg.shippingFlat;
+    var pct = Math.min(100, Math.round(sub / cfg.freeShippingThreshold * 100));
+    var shipMsg = ship === 0
+      ? '<span class="ship-progress-msg unlocked">✓ Free worldwide shipping unlocked</span>'
+      : '<span class="ship-progress-msg">Add ' + money(cfg.freeShippingThreshold - sub) + ' more for free shipping</span>';
     foot.innerHTML =
+      '<div class="ship-progress">' + shipMsg + '<div class="ship-bar"><span style="width:' + pct + '%"></span></div></div>' +
       '<div class="cart-sub"><span>Subtotal</span><b>' + money(sub) + '</b></div>' +
       '<div class="cart-ship"><span>Shipping</span><b>' + (ship === 0 ? 'Free' : money(ship)) + '</b></div>' +
       '<a href="checkout.html" class="btn btn-block">Checkout · ' + money(sub + ship) + '</a>' +

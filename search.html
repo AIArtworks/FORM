@@ -14,7 +14,7 @@
 <body>
 <div class="scroll-indicator" id="scrollIndicator"></div>
 
-<div class="announce">Volume II — Automotive design icons — now live &nbsp;·&nbsp; <b>Free worldwide shipping</b> over $150</div>
+<div class="announce"><b>Launch offer</b> — 10% off your first print with code <b>FORM10</b> &nbsp;·&nbsp; Free worldwide shipping over $150</div>
 
 <header class="site-header">
   <nav class="nav">
@@ -79,7 +79,7 @@
 function card(c){var soon=c.status!=='live';return '<article class="product-card'+(soon?' product-card--soon':'')+'" data-id="'+c.id+'">'
  +'<div class="product-media">'+(c.badge?'<span class="product-badge'+(soon?' badge-ink':'')+'">'+c.badge+'</span>':'')+'<img src="'+c.img+'" alt="Study '+c.study+' — '+c.title+'" loading="lazy">'
  +(soon?'':'<div class="product-cta"><button class="btn btn-card" data-add-to-cart data-id="'+c.id+'">Add to cart</button></div>')+'</div>'
- +'<a href="product.html?study='+c.id+'" class="product-body"><div class="product-meta-l"><div class="product-study">Study '+c.study+(c.year?' · '+c.year:'')+'</div><div class="product-title">'+c.title+'</div><div class="product-sub">'+(soon?'Vol. '+c.volume+' · In development':c.sub)+'</div></div><div class="product-price">'+(c.price!=null?'From<b>'+F.money(c.price)+'</b>':'<b>TBC</b>')+'</div></a></article>';}
+ +'<a href="product.html?study='+c.id+'" class="product-body"><div class="product-meta-l"><div class="product-study">Study '+c.study+(c.year?' · '+c.year:'')+'</div><div class="product-title">'+c.title+'</div><div class="product-sub">'+(soon?'Vol. '+c.volume+' · In development':c.sub)+'</div>'+(soon?'':'<div class="product-rating">★★★★★ <span>('+(60+(c.num*37)%140)+')</span></div>')+'</div><div class="product-price">'+(c.price!=null?(c.was?'<s>'+F.money(c.was)+'</s>':'')+'From<b>'+F.money(c.price)+'</b>':'<b>TBC</b>')+'</div></a></article>';}
 function run(q){q=(q||'').trim().toLowerCase();var list=F.catalog;
  if(q){list=F.catalog.filter(function(c){var hay=[c.title,c.sub,c.volumeName,c.year,c.origin].concat((c.specs||[]).map(function(r){return r[1];})).join(' ').toLowerCase();return q.split(/\s+/).every(function(t){return hay.indexOf(t)>-1;});});}
  meta.textContent=(q?list.length+' result'+(list.length===1?'':'s')+' for "'+q+'"':F.catalog.length+' studies in the archive');

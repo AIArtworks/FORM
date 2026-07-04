@@ -464,3 +464,59 @@ body.cart-open .cart-drawer { transform: translateX(0); }
 
 /* Volume II sports-car plates are 5:4 — show them uncropped on the PDP */
 .pdp-frame--wide img, .pdp-thumbs--wide img { aspect-ratio: 5/4; }
+
+/* ============================================================
+   CONVERSION LAYER — frames, anchoring, proof, nudges
+   ============================================================ */
+/* Was-price anchoring + card ratings */
+.product-price s { display: block; text-decoration: line-through; color: var(--color-muted); font-size: 12px; font-weight: var(--fw-regular); }
+.product-rating { color: var(--color-accent); font-size: 12px; letter-spacing: 2px; margin-top: 4px; }
+.product-rating span { color: var(--color-muted); letter-spacing: 0; font-size: 11px; }
+.pdp-price s { font-size: var(--text-lg); }
+.save-pill { display: inline-block; background: var(--color-accent); color: #fff; font-size: 11px; font-weight: var(--fw-bold); letter-spacing: var(--tracking-wide); text-transform: uppercase; padding: 3px 10px; border-radius: var(--radius-pill); margin-left: 10px; vertical-align: middle; }
+
+/* Touch devices have no hover — always show the card CTA */
+@media (hover: none) {
+  .product-cta { opacity: 1; transform: translateY(0); }
+}
+
+/* Hero social proof */
+.hero-proof { margin-top: var(--space-8); font-size: 13px; color: var(--color-ink-soft); }
+.hero-proof .stars { color: var(--color-accent); letter-spacing: 2px; margin-right: 6px; }
+.hero-proof b { font-family: var(--font-display); }
+
+/* Wall scene + oak frame — sell the object, not the file */
+.wall-scene { position: relative; background: radial-gradient(120% 90% at 50% 0%, #EFE7D4 0%, #E2D7C0 55%, #D2C4A8 100%); padding: clamp(28px, 6vw, 64px); border-radius: var(--radius-sm); box-shadow: inset 0 -16px 34px rgba(30,24,12,0.10); }
+.frame { display: block; background: #fff; padding: clamp(10px, 2.6vw, 24px); border: 12px solid #96743F; border-image: linear-gradient(140deg, #B08A52 0%, #8F6B38 45%, #B08A52 70%, #6F5128 100%) 1; box-shadow: 0 22px 45px rgba(30,24,12,0.38), 0 4px 10px rgba(30,24,12,0.22); transition: transform var(--transition-normal) var(--ease-smooth); }
+.frame img { width: 100%; display: block; }
+a.frame:hover { transform: translateY(-4px); }
+.hero-caption { display: flex; justify-content: space-between; gap: 12px; font-size: 11px; letter-spacing: var(--tracking-wide); text-transform: uppercase; color: var(--color-muted); margin-top: 14px; }
+.hero-caption b { color: var(--color-accent); font-family: var(--font-display); }
+
+/* Gallery wall band */
+.gallery-wall { display: flex; align-items: center; justify-content: center; gap: clamp(16px, 3vw, 44px); padding: clamp(10px, 2vw, 24px) 0; }
+.gallery-wall .frame { border-width: 10px; }
+.gw-side { width: 26%; }
+.gw-main { width: 40%; }
+.gw-side.lift { transform: translateY(-16px); }
+.gw-side.drop { transform: translateY(16px); }
+.gw-side.lift:hover, .gw-side.drop:hover { transform: translateY(-20px); }
+@media (max-width: 700px) { .gw-side { display: none; } .gw-main { width: 90%; } }
+
+/* Free-shipping progress nudge */
+.ship-progress { margin-bottom: var(--space-6); }
+.ship-progress-msg { font-size: 12px; text-transform: uppercase; letter-spacing: var(--tracking-wide); font-weight: var(--fw-bold); margin-bottom: 8px; }
+.ship-progress-msg.unlocked { color: var(--color-accent); }
+.ship-bar { height: 6px; background: var(--color-line); border-radius: 100px; overflow: hidden; }
+.ship-bar span { display: block; height: 100%; background: var(--color-accent); border-radius: 100px; transition: width 0.3s var(--ease-smooth); }
+
+/* Mobile sticky buy bar on product pages */
+.pdp-stickybar { display: none; }
+@media (max-width: 900px) {
+  .pdp-stickybar { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; background: var(--color-paper); border-top: 1px solid var(--color-line-strong); padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); gap: 14px; align-items: center; box-shadow: 0 -8px 24px rgba(30,24,12,0.12); }
+  .pdp-stickybar .btn { flex: 1; height: 46px; margin: 0; }
+  .pdp-stickybar-price { line-height: 1.15; }
+  .pdp-stickybar-price s { display: block; font-size: 11px; color: var(--color-muted); }
+  .pdp-stickybar-price b { font-size: 18px; font-family: var(--font-display); }
+  body.has-stickybar { padding-bottom: 78px; }
+}

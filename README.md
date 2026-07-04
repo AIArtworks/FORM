@@ -117,6 +117,15 @@ Nothing secret lives in this repo. To switch from demo to live:
    Paste the function URL into `config.js -> checkoutEndpoint`.
 3. **Stripe key** — add your `pk_live_…` (or `pk_test_…`) to
    `config.js -> stripePublishableKey`.
+4. **Promo code** — the announcement bar advertises `FORM10` (10% off first
+   print). Create a coupon + promotion code named `FORM10` in the Stripe
+   dashboard; the checkout session has `allow_promotion_codes` enabled, so
+   customers enter it on the Stripe payment page. Change or remove the bar
+   copy if you don't want to run the offer.
+
+> Pricing note: catalogue prices carry a `was` compare-at value (launch
+> pricing, ~20% above current). Both live in `assets/js/catalog.js` — set
+> `was` to `null` on an entry to hide the anchor.
 
 Once `checkoutEndpoint` + `stripePublishableKey` are set, checkout posts the cart
 to the Edge Function, which creates a Stripe Checkout Session and redirects the

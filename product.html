@@ -14,7 +14,7 @@
 <body>
 <div class="scroll-indicator" id="scrollIndicator"></div>
 
-<div class="announce">Volume II — Automotive design icons — now live &nbsp;·&nbsp; <b>Free worldwide shipping</b> over $150</div>
+<div class="announce"><b>Launch offer</b> — 10% off your first print with code <b>FORM10</b> &nbsp;·&nbsp; Free worldwide shipping over $150</div>
 
 <header class="site-header">
   <nav class="nav">
@@ -101,7 +101,7 @@
 
   if (p.status === 'live') {
     var stars = '★★★★★';
-    var reviews = 40 + (p.num * 7) % 200;
+    var reviews = 60 + (p.num * 37) % 140;
     var thumbs = (F.catalog.filter(function (c) { return c.volume === p.volume && c.status === 'live'; }))
       .sort(function (a, b) { return (a.id === p.id ? -1 : 0) - (b.id === p.id ? -1 : 0); }).slice(0, 4);
     root.innerHTML =
@@ -114,7 +114,8 @@
         '<div class="pdp-info">' +
           '<div class="pdp-study">Study ' + p.study + ' · ' + (p.accession || '') + '</div>' +
           '<h1 class="pdp-title">' + p.title + '</h1>' +
-          '<div class="pdp-price"><span id="pdpPrice">' + F.money(p.price) + '</span></div>' +
+          '<div class="pdp-price"><span id="pdpPrice">' + F.money(p.price) + '</span>' +
+            (p.was ? ' <s id="pdpWas">' + F.money(p.was) + '</s><span class="save-pill" id="pdpSave">Save ' + F.money(p.was - p.price) + '</span>' : '') + '</div>' +
           '<div class="review-stars" style="color:var(--color-accent); letter-spacing:2px; margin-top:8px;">' + stars + ' <span style="color:var(--color-muted); font-size:13px; letter-spacing:0;">(' + reviews + ' reviews)</span></div>' +
           '<p class="pdp-desc">' + p.desc + '</p>' +
           '<table class="spec-table">' + p.specs.map(function (r) { return '<tr><th>' + r[0] + '</th><td>' + r[1] + '</td></tr>'; }).join('') + '</table>' +
@@ -130,6 +131,15 @@
         '</div>' +
       '</div>';
 
+    // mobile sticky buy bar
+    var sticky = document.createElement('div');
+    sticky.className = 'pdp-stickybar';
+    sticky.innerHTML =
+      '<div class="pdp-stickybar-price">' + (p.was ? '<s id="stickyWas">' + F.money(p.was) + '</s>' : '') + '<b id="stickyPrice">' + F.money(p.price) + '</b></div>' +
+      '<button class="btn btn-block" data-add-to-cart data-pdp data-id="' + p.id + '">Add to cart</button>';
+    document.body.appendChild(sticky);
+    document.body.classList.add('has-stickybar');
+
     // live price recompute on option change
     function recompute() {
       var s = document.querySelector('.option-row[data-opt="size"] .option.active');
@@ -139,6 +149,13 @@
       var total = p.price + sd + fd;
       document.getElementById('pdpPrice').textContent = F.money(total);
       document.getElementById('pdpBtnPrice').textContent = F.money(total);
+      document.getElementById('stickyPrice').textContent = F.money(total);
+      if (p.was) {
+        var wasTotal = p.was + sd + fd;
+        document.getElementById('pdpWas').textContent = F.money(wasTotal);
+        document.getElementById('pdpSave').textContent = 'Save ' + F.money(wasTotal - total);
+        document.getElementById('stickyWas').textContent = F.money(wasTotal);
+      }
     }
     // wire size/finish toggles (PDP renders after form.js, so bind here)
     document.querySelectorAll('.pdp-info .option-row').forEach(function (row) {
@@ -190,7 +207,7 @@
         '<div class="product-media">' + (c.badge ? '<span class="product-badge">' + c.badge + '</span>' : '') +
           '<img src="' + c.img + '" alt="Study ' + c.study + ' — ' + c.title + '">' +
           '<div class="product-cta"><button class="btn btn-card" data-add-to-cart data-id="' + c.id + '">Add to cart</button></div></div>' +
-        '<a href="product.html?study=' + c.id + '" class="product-body"><div class="product-meta-l"><div class="product-study">Study ' + c.study + (c.year ? ' · ' + c.year : '') + '</div><div class="product-title">' + c.title + '</div><div class="product-sub">' + c.sub + '</div></div><div class="product-price">From<b>' + F.money(c.price) + '</b></div></a>' +
+        '<a href="product.html?study=' + c.id + '" class="product-body"><div class="product-meta-l"><div class="product-study">Study ' + c.study + (c.year ? ' · ' + c.year : '') + '</div><div class="product-title">' + c.title + '</div><div class="product-sub">' + c.sub + '</div><div class="product-rating">★★★★★ <span>(' + (60 + (c.num * 37) % 140) + ')</span></div></div><div class="product-price">' + (c.was ? '<s>' + F.money(c.was) + '</s>' : '') + 'From<b>' + F.money(c.price) + '</b></div></a>' +
       '</article>';
     }).join('');
   }

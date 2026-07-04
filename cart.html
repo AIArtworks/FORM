@@ -14,7 +14,7 @@
 <body>
 <div class="scroll-indicator" id="scrollIndicator"></div>
 
-<div class="announce">Volume II — Automotive design icons — now live &nbsp;·&nbsp; <b>Free worldwide shipping</b> over $150</div>
+<div class="announce"><b>Launch offer</b> — 10% off your first print with code <b>FORM10</b> &nbsp;·&nbsp; Free worldwide shipping over $150</div>
 
 <header class="site-header">
   <nav class="nav">
@@ -82,8 +82,11 @@ function render(){var items=F.cart.items();
    +'<div class="cart-line-qty" style="grid-area:qty"><button class="qty-btn" data-act="dec">−</button><span class="qty-n">'+i.qty+'</span><button class="qty-btn" data-act="inc">+</button><button class="cart-line-remove" data-act="rm">Remove</button></div>'
    +'<div class="cart-line-price" style="grid-area:price">'+F.money(F.cart.unitPrice(i)*i.qty)+'</div></div>';}).join('');
  var sub=F.cart.subtotal();var ship=sub>=F.config.freeShippingThreshold?0:F.config.shippingFlat;
+ var pct=Math.min(100,Math.round(sub/F.config.freeShippingThreshold*100));
+ var shipMsg=ship===0?'<span class="ship-progress-msg unlocked">✓ Free worldwide shipping unlocked</span>':'<span class="ship-progress-msg">Add '+F.money(F.config.freeShippingThreshold-sub)+' more for free shipping</span>';
  root.innerHTML='<div class="checkout-grid"><div class="cart-table">'+rows+'</div>'
-   +'<div class="summary-card"><div class="summary-line"><span>Subtotal</span><b>'+F.money(sub)+'</b></div>'
+   +'<div class="summary-card"><div class="ship-progress">'+shipMsg+'<div class="ship-bar"><span style="width:'+pct+'%"></span></div></div>'
+   +'<div class="summary-line"><span>Subtotal</span><b>'+F.money(sub)+'</b></div>'
    +'<div class="summary-line"><span>Shipping</span><b>'+(ship===0?'Free':F.money(ship))+'</b></div>'
    +'<div class="summary-tot"><span>Total</span><span>'+F.money(sub+ship)+'</span></div>'
    +'<a href="checkout.html" class="btn btn-block" style="margin-top:16px;">Proceed to checkout</a>'

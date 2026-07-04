@@ -76,6 +76,7 @@ Deno.serve(async (req) => {
 
     const session = await stripe.checkout.sessions.create({
       mode: "payment",
+      allow_promotion_codes: true,
       line_items,
       customer_email: data.customer?.email,
       success_url: `${SITE_URL}/order-confirmation.html?ref=${ref}&session_id={CHECKOUT_SESSION_ID}`,
