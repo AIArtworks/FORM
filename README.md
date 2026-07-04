@@ -9,10 +9,11 @@ using an archival design system: **warm paper, black draughtsman linework, and
 an archive-gold accent**, with a boxed "FORM" wordmark (Archivo display + Inter
 body).
 
-Volumes I & II — the **motorcycle studies** and the **sports-car design icons**
-— are live. Volumes III–VI (Mechanical Anatomy, Blueprint, Workshop, Industrial
-Icons) are scaffolded as placeholder collections. A full client-side cart and
-checkout is wired, with Stripe + Supabase integration seams ready.
+Volumes I & II — **Classic Motorcycles** and **Automotive Design Icons** —
+are live. Volumes III–X (Engine Icons, Blueprint, Workshop, Patent, World's
+Greatest Roads, Industrial Icons, Aviation, Industrial Heritage) are scaffolded
+as placeholder collections per the MASTER Collection Roadmap. A full
+client-side cart and checkout is wired, with Stripe + Supabase seams ready.
 
 > Design system structure & components adapted from the supplied design template
 > and re-skinned end-to-end to FORM's brand identity.
@@ -45,21 +46,30 @@ so they render without cropping the labels):
 `014-mercedes-300sl` · `015-ford-gt40` · `016-lamborghini-miura` ·
 `017-ferrari-250gto` · `018-aston-db5` · `019-porsche-356` · `020-citroen-ds`
 
-## The roadmap (Volumes III–VI — in development)
+## The roadmap (Volumes III–X — in development)
 
-Four further volumes from the Collection Masterplan are scaffolded as
+Eight further volumes from the MASTER Collection Roadmap are scaffolded as
 placeholder collections — each with **ten** planned entries and a branded
 placeholder plate (`assets/art/placeholder-*.svg`), shown on the shop page
 under **Roadmap**:
 
-- **Volume III — Mechanical Anatomy** (Studies 021–030)
-- **Volume IV — Blueprint Collection** (031–040)
-- **Volume V — Workshop Collection** (041–050)
-- **Volume VI — Industrial Icons** (051–060)
+- **Volume III — Engine Icons** (Studies 025–034)
+- **Volume IV — Blueprint Collection** (035–044)
+- **Volume V — Workshop Collection** (045–054)
+- **Volume VI — Patent Collection** (055–064)
+- **Volume VII — World's Greatest Roads** (065–074)
+- **Volume VIII — Industrial Icons** (075–084)
+- **Volume IX — Aviation** (085–094)
+- **Volume X — Industrial Heritage** (095–104)
 
-To make a volume live: drop the real 5:4/3:2 plates into `assets/art/machines/`,
-swap the `.product-card--soon` cards for standard cards, and flip its collection
-card from "Coming soon" to "Shop now".
+Volume I carries one placeholder (008 Kawasaki Z900) and Volume II four
+(021–024: Alfa 33 Stradale, Maserati A6GCS/53, Ferrari 275 GTB, Bizzarrini
+5300 GT). Future expansions beyond Volume X: architecture, furniture, cameras,
+watches, scientific instruments, railway & marine heritage.
+
+To make a study live: drop the plate into `assets/art/machines/`, update its
+catalogue entry in `assets/js/catalog.js` (img, price, specs, status:"live"),
+and swap its static `.product-card--soon` card for a standard card.
 
 ## Design system
 
@@ -85,8 +95,8 @@ To add a new study: drop the image in `assets/art/machines/`, then copy a
 The store is fully client-side and works today in **demo mode** (no backend
 required). It upgrades to live payments + database by filling in one config file.
 
-**Catalogue** — `assets/js/catalog.js` is the single source of truth: all 60
-studies (19 live, 41 placeholder) with prices, specs, images and volume.
+**Catalogue** — `assets/js/catalog.js` is the single source of truth: all 104
+studies (19 live, 85 placeholder) with prices, specs, images and volume.
 
 **Cart** — `assets/js/store.js` handles cart state (localStorage), the slide-in
 cart drawer, add-to-cart (event-delegated on `[data-add-to-cart][data-id]`),

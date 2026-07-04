@@ -1,27 +1,27 @@
-/* FORM catalogue — generated. Single source of truth for every study. */
+/* FORM catalogue — generated from the MASTER Collection Roadmap. Single source of truth. */
 window.FORM = window.FORM || {};
 FORM.volumes = {
   "I": {
-    "name": "Motorcycles",
+    "name": "Classic Motorcycles",
     "slug": "studies",
     "status": "live",
     "ratio": "3-2",
-    "purpose": "Landmark motorcycles that changed industrial design or engineering."
+    "purpose": "Landmark motorcycles presented as industrial sculpture."
   },
   "II": {
     "name": "Automotive Design Icons",
     "slug": "automotive",
     "status": "live",
     "ratio": "5-4",
-    "purpose": "Iconic sports cars recognised for engineering and design excellence."
+    "purpose": "Classic sports cars as objects of sculptural beauty."
   },
   "III": {
-    "name": "Mechanical Anatomy",
-    "slug": "anatomy",
+    "name": "Engine Icons",
+    "slug": "engines",
     "status": "soon",
     "ratio": "3-2",
     "img": "placeholder-anatomy.svg",
-    "purpose": "Reveal the engineering hidden within exceptional machines."
+    "purpose": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design."
   },
   "IV": {
     "name": "Blueprint Collection",
@@ -29,7 +29,7 @@ FORM.volumes = {
     "status": "soon",
     "ratio": "3-2",
     "img": "placeholder-blueprint.svg",
-    "purpose": "Technical orthographic studies with measured drawings."
+    "purpose": "Icons of design rendered as measured, orthographic archival plates."
   },
   "V": {
     "name": "Workshop Collection",
@@ -37,15 +37,47 @@ FORM.volumes = {
     "status": "soon",
     "ratio": "3-2",
     "img": "placeholder-workshop.svg",
-    "purpose": "Celebrate the tools behind exceptional craftsmanship."
+    "purpose": "The tools and machines behind exceptional craftsmanship — utility as industrial design."
   },
   "VI": {
+    "name": "Patent Collection",
+    "slug": "patent",
+    "status": "soon",
+    "ratio": "3-2",
+    "img": "placeholder-patent.svg",
+    "purpose": "Historic patent drawings, reimagined as gallery-grade archival plates."
+  },
+  "VII": {
+    "name": "World's Greatest Roads",
+    "slug": "roads",
+    "status": "soon",
+    "ratio": "3-2",
+    "img": "placeholder-roads.svg",
+    "purpose": "The road itself as the design object — line, curvature and engineering in the landscape."
+  },
+  "VIII": {
     "name": "Industrial Icons",
     "slug": "industrial",
     "status": "soon",
     "ratio": "3-2",
     "img": "placeholder-industrial.svg",
-    "purpose": "Exceptional examples of industrial design beyond transport."
+    "purpose": "Timeless industrial design beyond transport."
+  },
+  "IX": {
+    "name": "Aviation",
+    "slug": "aviation",
+    "status": "soon",
+    "ratio": "3-2",
+    "img": "placeholder-aviation.svg",
+    "purpose": "Aircraft that defined aerodynamic identity and structural elegance."
+  },
+  "X": {
+    "name": "Industrial Heritage",
+    "slug": "heritage",
+    "status": "soon",
+    "ratio": "3-2",
+    "img": "placeholder-heritage.svg",
+    "purpose": "Monumental industrial sites as design history and cultural artefact."
   }
 };
 
@@ -59,9 +91,9 @@ FORM.catalog = [
   "year": 1969,
   "origin": "japanese",
   "volume": "I",
-  "volumeName": "Motorcycles",
+  "volumeName": "Classic Motorcycles",
   "price": 48,
- "was": 60,
+  "was": 60,
   "img": "assets/art/machines/study-001-honda-cb750.png",
   "ratio": "3-2",
   "badge": "Best Seller",
@@ -104,9 +136,9 @@ FORM.catalog = [
   "year": 1959,
   "origin": "british",
   "volume": "I",
-  "volumeName": "Motorcycles",
+  "volumeName": "Classic Motorcycles",
   "price": 48,
- "was": 60,
+  "was": 60,
   "img": "assets/art/machines/study-002-triumph-t120.png",
   "ratio": "3-2",
   "badge": null,
@@ -149,9 +181,9 @@ FORM.catalog = [
   "year": 1967,
   "origin": "british",
   "volume": "I",
-  "volumeName": "Motorcycles",
+  "volumeName": "Classic Motorcycles",
   "price": 48,
- "was": 60,
+  "was": 60,
   "img": "assets/art/machines/study-003-norton-commando.png",
   "ratio": "3-2",
   "badge": null,
@@ -194,9 +226,9 @@ FORM.catalog = [
   "year": 1975,
   "origin": "italian",
   "volume": "I",
-  "volumeName": "Motorcycles",
+  "volumeName": "Classic Motorcycles",
   "price": 52,
- "was": 65,
+  "was": 65,
   "img": "assets/art/machines/study-004-ducati-900ss.png",
   "ratio": "3-2",
   "badge": "New",
@@ -239,9 +271,9 @@ FORM.catalog = [
   "year": 1980,
   "origin": "german",
   "volume": "I",
-  "volumeName": "Motorcycles",
+  "volumeName": "Classic Motorcycles",
   "price": 52,
- "was": 65,
+  "was": 65,
   "img": "assets/art/machines/study-005-bmw-r80gs.png",
   "ratio": "3-2",
   "badge": null,
@@ -284,9 +316,9 @@ FORM.catalog = [
   "year": 1973,
   "origin": "japanese",
   "volume": "I",
-  "volumeName": "Motorcycles",
+  "volumeName": "Classic Motorcycles",
   "price": 48,
- "was": 60,
+  "was": 60,
   "img": "assets/art/machines/study-006-yamaha-rd350.png",
   "ratio": "3-2",
   "badge": null,
@@ -329,9 +361,9 @@ FORM.catalog = [
   "year": 1968,
   "origin": "japanese",
   "volume": "I",
-  "volumeName": "Motorcycles",
+  "volumeName": "Classic Motorcycles",
   "price": 48,
- "was": 60,
+  "was": 60,
   "img": "assets/art/machines/study-007-yamaha-xs650.png",
   "ratio": "3-2",
   "badge": "Best Seller",
@@ -371,21 +403,22 @@ FORM.catalog = [
   "study": "008",
   "title": "Kawasaki Z900",
   "sub": "In development",
-  "year": 1972,
+  "year": null,
   "origin": null,
   "volume": "I",
-  "volumeName": "Motorcycles",
+  "volumeName": "Classic Motorcycles",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-study.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Landmark motorcycles that changed industrial design or engineering. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Landmark motorcycles presented as industrial sculpture. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "I · Motorcycles"
+    "I · Classic Motorcycles"
    ],
    [
     "Status",
@@ -402,9 +435,9 @@ FORM.catalog = [
   "year": 1972,
   "origin": "japanese",
   "volume": "I",
-  "volumeName": "Motorcycles",
+  "volumeName": "Classic Motorcycles",
   "price": 52,
- "was": 65,
+  "was": 65,
   "img": "assets/art/machines/study-009-suzuki-gt750.png",
   "ratio": "3-2",
   "badge": null,
@@ -447,9 +480,9 @@ FORM.catalog = [
   "year": 1976,
   "origin": "italian",
   "volume": "I",
-  "volumeName": "Motorcycles",
+  "volumeName": "Classic Motorcycles",
   "price": 52,
- "was": 65,
+  "was": 65,
   "img": "assets/art/machines/study-010-motoguzzi-lemans.png",
   "ratio": "3-2",
   "badge": null,
@@ -494,7 +527,7 @@ FORM.catalog = [
   "volume": "II",
   "volumeName": "Automotive Design Icons",
   "price": 52,
- "was": 65,
+  "was": 65,
   "img": "assets/art/machines/study-011-porsche-911.png",
   "ratio": "5-4",
   "badge": "Best Seller",
@@ -539,7 +572,7 @@ FORM.catalog = [
   "volume": "II",
   "volumeName": "Automotive Design Icons",
   "price": 52,
- "was": 65,
+  "was": 65,
   "img": "assets/art/machines/study-012-jaguar-etype.png",
   "ratio": "5-4",
   "badge": null,
@@ -584,7 +617,7 @@ FORM.catalog = [
   "volume": "II",
   "volumeName": "Automotive Design Icons",
   "price": 58,
- "was": 72,
+  "was": 72,
   "img": "assets/art/machines/study-013-ferrari-f40.png",
   "ratio": "5-4",
   "badge": "New",
@@ -629,7 +662,7 @@ FORM.catalog = [
   "volume": "II",
   "volumeName": "Automotive Design Icons",
   "price": 58,
- "was": 72,
+  "was": 72,
   "img": "assets/art/machines/study-014-mercedes-300sl.png",
   "ratio": "5-4",
   "badge": null,
@@ -674,7 +707,7 @@ FORM.catalog = [
   "volume": "II",
   "volumeName": "Automotive Design Icons",
   "price": 58,
- "was": 72,
+  "was": 72,
   "img": "assets/art/machines/study-015-ford-gt40.png",
   "ratio": "5-4",
   "badge": "Best Seller",
@@ -719,7 +752,7 @@ FORM.catalog = [
   "volume": "II",
   "volumeName": "Automotive Design Icons",
   "price": 58,
- "was": 72,
+  "was": 72,
   "img": "assets/art/machines/study-016-lamborghini-miura.png",
   "ratio": "5-4",
   "badge": null,
@@ -764,7 +797,7 @@ FORM.catalog = [
   "volume": "II",
   "volumeName": "Automotive Design Icons",
   "price": 58,
- "was": 72,
+  "was": 72,
   "img": "assets/art/machines/study-017-ferrari-250gto.png",
   "ratio": "5-4",
   "badge": null,
@@ -809,7 +842,7 @@ FORM.catalog = [
   "volume": "II",
   "volumeName": "Automotive Design Icons",
   "price": 54,
- "was": 68,
+  "was": 68,
   "img": "assets/art/machines/study-018-aston-db5.png",
   "ratio": "5-4",
   "badge": null,
@@ -854,7 +887,7 @@ FORM.catalog = [
   "volume": "II",
   "volumeName": "Automotive Design Icons",
   "price": 52,
- "was": 65,
+  "was": 65,
   "img": "assets/art/machines/study-019-porsche-356.png",
   "ratio": "5-4",
   "badge": null,
@@ -899,7 +932,7 @@ FORM.catalog = [
   "volume": "II",
   "volumeName": "Automotive Design Icons",
   "price": 52,
- "was": 65,
+  "was": 65,
   "img": "assets/art/machines/study-020-citroen-ds.png",
   "ratio": "5-4",
   "badge": null,
@@ -937,23 +970,24 @@ FORM.catalog = [
   "id": "021",
   "num": 21,
   "study": "021",
-  "title": "Inline-Four Engine",
+  "title": "Alfa Romeo 33 Stradale",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "III",
-  "volumeName": "Mechanical Anatomy",
+  "volume": "II",
+  "volumeName": "Automotive Design Icons",
   "price": null,
-  "img": "assets/art/placeholder-anatomy.svg",
+  "was": null,
+  "img": "assets/art/placeholder-study.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Reveal the engineering hidden within exceptional machines. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Classic sports cars as objects of sculptural beauty. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "III · Mechanical Anatomy"
+    "II · Automotive Design Icons"
    ],
    [
     "Status",
@@ -965,23 +999,24 @@ FORM.catalog = [
   "id": "022",
   "num": 22,
   "study": "022",
-  "title": "Flat-Twin Engine",
+  "title": "Maserati A6GCS/53 Berlinetta",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "III",
-  "volumeName": "Mechanical Anatomy",
+  "volume": "II",
+  "volumeName": "Automotive Design Icons",
   "price": null,
-  "img": "assets/art/placeholder-anatomy.svg",
+  "was": null,
+  "img": "assets/art/placeholder-study.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Reveal the engineering hidden within exceptional machines. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Classic sports cars as objects of sculptural beauty. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "III · Mechanical Anatomy"
+    "II · Automotive Design Icons"
    ],
    [
     "Status",
@@ -993,23 +1028,24 @@ FORM.catalog = [
   "id": "023",
   "num": 23,
   "study": "023",
-  "title": "V-Twin Engine",
+  "title": "Ferrari 275 GTB",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "III",
-  "volumeName": "Mechanical Anatomy",
+  "volume": "II",
+  "volumeName": "Automotive Design Icons",
   "price": null,
-  "img": "assets/art/placeholder-anatomy.svg",
+  "was": null,
+  "img": "assets/art/placeholder-study.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Reveal the engineering hidden within exceptional machines. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Classic sports cars as objects of sculptural beauty. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "III · Mechanical Anatomy"
+    "II · Automotive Design Icons"
    ],
    [
     "Status",
@@ -1021,23 +1057,24 @@ FORM.catalog = [
   "id": "024",
   "num": 24,
   "study": "024",
-  "title": "Manual Gearbox",
+  "title": "Bizzarrini 5300 GT Strada",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "III",
-  "volumeName": "Mechanical Anatomy",
+  "volume": "II",
+  "volumeName": "Automotive Design Icons",
   "price": null,
-  "img": "assets/art/placeholder-anatomy.svg",
+  "was": null,
+  "img": "assets/art/placeholder-study.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Reveal the engineering hidden within exceptional machines. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Classic sports cars as objects of sculptural beauty. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "III · Mechanical Anatomy"
+    "II · Automotive Design Icons"
    ],
    [
     "Status",
@@ -1049,23 +1086,24 @@ FORM.catalog = [
   "id": "025",
   "num": 25,
   "study": "025",
-  "title": "Carburettor",
+  "title": "Mercedes-Benz 300SL Spaceframe",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "III",
-  "volumeName": "Mechanical Anatomy",
+  "volumeName": "Engine Icons",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-anatomy.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Reveal the engineering hidden within exceptional machines. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "III · Mechanical Anatomy"
+    "III · Engine Icons"
    ],
    [
     "Status",
@@ -1077,23 +1115,24 @@ FORM.catalog = [
   "id": "026",
   "num": 26,
   "study": "026",
-  "title": "Turbocharger",
+  "title": "Ferrari Colombo V12",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "III",
-  "volumeName": "Mechanical Anatomy",
+  "volumeName": "Engine Icons",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-anatomy.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Reveal the engineering hidden within exceptional machines. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "III · Mechanical Anatomy"
+    "III · Engine Icons"
    ],
    [
     "Status",
@@ -1105,23 +1144,24 @@ FORM.catalog = [
   "id": "027",
   "num": 27,
   "study": "027",
-  "title": "Differential",
+  "title": "Porsche Flat-Six Boxer",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "III",
-  "volumeName": "Mechanical Anatomy",
+  "volumeName": "Engine Icons",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-anatomy.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Reveal the engineering hidden within exceptional machines. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "III · Mechanical Anatomy"
+    "III · Engine Icons"
    ],
    [
     "Status",
@@ -1133,23 +1173,24 @@ FORM.catalog = [
   "id": "028",
   "num": 28,
   "study": "028",
-  "title": "Suspension System",
+  "title": "Jaguar XK Straight-Six",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "III",
-  "volumeName": "Mechanical Anatomy",
+  "volumeName": "Engine Icons",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-anatomy.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Reveal the engineering hidden within exceptional machines. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "III · Mechanical Anatomy"
+    "III · Engine Icons"
    ],
    [
     "Status",
@@ -1161,23 +1202,24 @@ FORM.catalog = [
   "id": "029",
   "num": 29,
   "study": "029",
-  "title": "Fuel Injection",
+  "title": "Honda CB750 Inline-Four",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "III",
-  "volumeName": "Mechanical Anatomy",
+  "volumeName": "Engine Icons",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-anatomy.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Reveal the engineering hidden within exceptional machines. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "III · Mechanical Anatomy"
+    "III · Engine Icons"
    ],
    [
     "Status",
@@ -1189,23 +1231,24 @@ FORM.catalog = [
   "id": "030",
   "num": 30,
   "study": "030",
-  "title": "Multi-Plate Clutch",
+  "title": "Ducati Bevel-Drive L-Twin",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "III",
-  "volumeName": "Mechanical Anatomy",
+  "volumeName": "Engine Icons",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-anatomy.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Reveal the engineering hidden within exceptional machines. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "III · Mechanical Anatomy"
+    "III · Engine Icons"
    ],
    [
     "Status",
@@ -1217,23 +1260,24 @@ FORM.catalog = [
   "id": "031",
   "num": 31,
   "study": "031",
-  "title": "Honda CB750 — Blueprint",
+  "title": "BMW Air-Cooled Boxer Twin",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "IV",
-  "volumeName": "Blueprint Collection",
+  "volume": "III",
+  "volumeName": "Engine Icons",
   "price": null,
-  "img": "assets/art/placeholder-blueprint.svg",
+  "was": null,
+  "img": "assets/art/placeholder-anatomy.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Technical orthographic studies with measured drawings. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "IV · Blueprint Collection"
+    "III · Engine Icons"
    ],
    [
     "Status",
@@ -1245,23 +1289,24 @@ FORM.catalog = [
   "id": "032",
   "num": 32,
   "study": "032",
-  "title": "Porsche 911 — Blueprint",
+  "title": "Rolls-Royce Olympus",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "IV",
-  "volumeName": "Blueprint Collection",
+  "volume": "III",
+  "volumeName": "Engine Icons",
   "price": null,
-  "img": "assets/art/placeholder-blueprint.svg",
+  "was": null,
+  "img": "assets/art/placeholder-anatomy.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Technical orthographic studies with measured drawings. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "IV · Blueprint Collection"
+    "III · Engine Icons"
    ],
    [
     "Status",
@@ -1273,23 +1318,24 @@ FORM.catalog = [
   "id": "033",
   "num": 33,
   "study": "033",
-  "title": "Leica M3 — Blueprint",
+  "title": "Pratt & Whitney R-2800 Double Wasp",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "IV",
-  "volumeName": "Blueprint Collection",
+  "volume": "III",
+  "volumeName": "Engine Icons",
   "price": null,
-  "img": "assets/art/placeholder-blueprint.svg",
+  "was": null,
+  "img": "assets/art/placeholder-anatomy.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Technical orthographic studies with measured drawings. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "IV · Blueprint Collection"
+    "III · Engine Icons"
    ],
    [
     "Status",
@@ -1301,23 +1347,24 @@ FORM.catalog = [
   "id": "034",
   "num": 34,
   "study": "034",
-  "title": "Concorde — Blueprint",
+  "title": "Cosworth DFV V8",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "IV",
-  "volumeName": "Blueprint Collection",
+  "volume": "III",
+  "volumeName": "Engine Icons",
   "price": null,
-  "img": "assets/art/placeholder-blueprint.svg",
+  "was": null,
+  "img": "assets/art/placeholder-anatomy.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Technical orthographic studies with measured drawings. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Engines and assemblies — the engineering hidden inside exceptional machines, treated as visual design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "IV · Blueprint Collection"
+    "III · Engine Icons"
    ],
    [
     "Status",
@@ -1329,19 +1376,20 @@ FORM.catalog = [
   "id": "035",
   "num": 35,
   "study": "035",
-  "title": "Supermarine Spitfire — Blueprint",
+  "title": "Leica M3 — Blueprint",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "IV",
   "volumeName": "Blueprint Collection",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-blueprint.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Technical orthographic studies with measured drawings. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1357,19 +1405,20 @@ FORM.catalog = [
   "id": "036",
   "num": 36,
   "study": "036",
-  "title": "Jaguar E-Type — Blueprint",
+  "title": "Anglepoise Original 1227 — Blueprint",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "IV",
   "volumeName": "Blueprint Collection",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-blueprint.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Technical orthographic studies with measured drawings. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1385,19 +1434,20 @@ FORM.catalog = [
   "id": "037",
   "num": 37,
   "study": "037",
-  "title": "Saturn V — Blueprint",
+  "title": "Olivetti Valentine — Blueprint",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "IV",
   "volumeName": "Blueprint Collection",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-blueprint.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Technical orthographic studies with measured drawings. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1413,19 +1463,20 @@ FORM.catalog = [
   "id": "038",
   "num": 38,
   "study": "038",
-  "title": "Eames Lounge Chair — Blueprint",
+  "title": "B&O Beogram 4000 — Blueprint",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "IV",
   "volumeName": "Blueprint Collection",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-blueprint.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Technical orthographic studies with measured drawings. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1441,19 +1492,20 @@ FORM.catalog = [
   "id": "039",
   "num": 39,
   "study": "039",
-  "title": "Routemaster Bus — Blueprint",
+  "title": "Braun ET66 Calculator — Blueprint",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "IV",
   "volumeName": "Blueprint Collection",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-blueprint.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Technical orthographic studies with measured drawings. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1469,19 +1521,20 @@ FORM.catalog = [
   "id": "040",
   "num": 40,
   "study": "040",
-  "title": "Nikon F — Blueprint",
+  "title": "Eames Lounge Chair — Blueprint",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "IV",
   "volumeName": "Blueprint Collection",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-blueprint.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Technical orthographic studies with measured drawings. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1497,23 +1550,24 @@ FORM.catalog = [
   "id": "041",
   "num": 41,
   "study": "041",
-  "title": "Torque Wrench",
+  "title": "Rams 606 Shelving — Blueprint",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "V",
-  "volumeName": "Workshop Collection",
+  "volume": "IV",
+  "volumeName": "Blueprint Collection",
   "price": null,
-  "img": "assets/art/placeholder-workshop.svg",
+  "was": null,
+  "img": "assets/art/placeholder-blueprint.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Celebrate the tools behind exceptional craftsmanship. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "V · Workshop Collection"
+    "IV · Blueprint Collection"
    ],
    [
     "Status",
@@ -1525,23 +1579,24 @@ FORM.catalog = [
   "id": "042",
   "num": 42,
   "study": "042",
-  "title": "Spark Plug",
+  "title": "Bic Cristal — Blueprint",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "V",
-  "volumeName": "Workshop Collection",
+  "volume": "IV",
+  "volumeName": "Blueprint Collection",
   "price": null,
-  "img": "assets/art/placeholder-workshop.svg",
+  "was": null,
+  "img": "assets/art/placeholder-blueprint.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Celebrate the tools behind exceptional craftsmanship. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "V · Workshop Collection"
+    "IV · Blueprint Collection"
    ],
    [
     "Status",
@@ -1553,23 +1608,24 @@ FORM.catalog = [
   "id": "043",
   "num": 43,
   "study": "043",
-  "title": "Vintage Helmet",
+  "title": "Alessi 9093 Kettle — Blueprint",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "V",
-  "volumeName": "Workshop Collection",
+  "volume": "IV",
+  "volumeName": "Blueprint Collection",
   "price": null,
-  "img": "assets/art/placeholder-workshop.svg",
+  "was": null,
+  "img": "assets/art/placeholder-blueprint.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Celebrate the tools behind exceptional craftsmanship. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "V · Workshop Collection"
+    "IV · Blueprint Collection"
    ],
    [
     "Status",
@@ -1581,23 +1637,24 @@ FORM.catalog = [
   "id": "044",
   "num": 44,
   "study": "044",
-  "title": "Leather Gloves",
+  "title": "Thonet No.14 — Blueprint",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "V",
-  "volumeName": "Workshop Collection",
+  "volume": "IV",
+  "volumeName": "Blueprint Collection",
   "price": null,
-  "img": "assets/art/placeholder-workshop.svg",
+  "was": null,
+  "img": "assets/art/placeholder-blueprint.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Celebrate the tools behind exceptional craftsmanship. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Icons of design rendered as measured, orthographic archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "V · Workshop Collection"
+    "IV · Blueprint Collection"
    ],
    [
     "Status",
@@ -1609,19 +1666,20 @@ FORM.catalog = [
   "id": "045",
   "num": 45,
   "study": "045",
-  "title": "Socket Set",
+  "title": "Bridgeport Milling Machine",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "V",
   "volumeName": "Workshop Collection",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-workshop.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Celebrate the tools behind exceptional craftsmanship. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1637,19 +1695,20 @@ FORM.catalog = [
   "id": "046",
   "num": 46,
   "study": "046",
-  "title": "Micrometer",
+  "title": "South Bend Lathe",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "V",
   "volumeName": "Workshop Collection",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-workshop.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Celebrate the tools behind exceptional craftsmanship. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1665,19 +1724,20 @@ FORM.catalog = [
   "id": "047",
   "num": 47,
   "study": "047",
-  "title": "Feeler Gauge",
+  "title": "Snap-on Roll Cab & Chest",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "V",
   "volumeName": "Workshop Collection",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-workshop.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Celebrate the tools behind exceptional craftsmanship. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1693,19 +1753,20 @@ FORM.catalog = [
   "id": "048",
   "num": 48,
   "study": "048",
-  "title": "Bench Vice",
+  "title": "Starrett Combination Square",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "V",
   "volumeName": "Workshop Collection",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-workshop.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Celebrate the tools behind exceptional craftsmanship. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1721,19 +1782,20 @@ FORM.catalog = [
   "id": "049",
   "num": 49,
   "study": "049",
-  "title": "Oil Can",
+  "title": "Wilton Bullet Vise",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "V",
   "volumeName": "Workshop Collection",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-workshop.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Celebrate the tools behind exceptional craftsmanship. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1749,19 +1811,20 @@ FORM.catalog = [
   "id": "050",
   "num": 50,
   "study": "050",
-  "title": "Tyre Pressure Gauge",
+  "title": "Mitutoyo Dial Calipers",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "V",
   "volumeName": "Workshop Collection",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-workshop.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Celebrate the tools behind exceptional craftsmanship. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
@@ -1777,23 +1840,24 @@ FORM.catalog = [
   "id": "051",
   "num": 51,
   "study": "051",
-  "title": "Leica M3",
+  "title": "Brown & Sharpe Micrometer Set",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "VI",
-  "volumeName": "Industrial Icons",
+  "volume": "V",
+  "volumeName": "Workshop Collection",
   "price": null,
-  "img": "assets/art/placeholder-industrial.svg",
+  "was": null,
+  "img": "assets/art/placeholder-workshop.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Exceptional examples of industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "VI · Industrial Icons"
+    "V · Workshop Collection"
    ],
    [
     "Status",
@@ -1805,23 +1869,24 @@ FORM.catalog = [
   "id": "052",
   "num": 52,
   "study": "052",
-  "title": "Braun SK4",
+  "title": "Kennedy Machinist Chest",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "VI",
-  "volumeName": "Industrial Icons",
+  "volume": "V",
+  "volumeName": "Workshop Collection",
   "price": null,
-  "img": "assets/art/placeholder-industrial.svg",
+  "was": null,
+  "img": "assets/art/placeholder-workshop.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Exceptional examples of industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "VI · Industrial Icons"
+    "V · Workshop Collection"
    ],
    [
     "Status",
@@ -1833,23 +1898,24 @@ FORM.catalog = [
   "id": "053",
   "num": 53,
   "study": "053",
-  "title": "Rolleiflex",
+  "title": "Singer 111W Industrial",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "VI",
-  "volumeName": "Industrial Icons",
+  "volume": "V",
+  "volumeName": "Workshop Collection",
   "price": null,
-  "img": "assets/art/placeholder-industrial.svg",
+  "was": null,
+  "img": "assets/art/placeholder-workshop.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Exceptional examples of industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "VI · Industrial Icons"
+    "V · Workshop Collection"
    ],
    [
     "Status",
@@ -1861,23 +1927,24 @@ FORM.catalog = [
   "id": "054",
   "num": 54,
   "study": "054",
-  "title": "Eames Lounge Chair",
+  "title": "Ingersoll Rand Compressor",
   "sub": "In development",
   "year": null,
   "origin": null,
-  "volume": "VI",
-  "volumeName": "Industrial Icons",
+  "volume": "V",
+  "volumeName": "Workshop Collection",
   "price": null,
-  "img": "assets/art/placeholder-industrial.svg",
+  "was": null,
+  "img": "assets/art/placeholder-workshop.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Exceptional examples of industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "The tools and machines behind exceptional craftsmanship — utility as industrial design. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "VI · Industrial Icons"
+    "V · Workshop Collection"
    ],
    [
     "Status",
@@ -1889,23 +1956,24 @@ FORM.catalog = [
   "id": "055",
   "num": 55,
   "study": "055",
-  "title": "Hasselblad 500C",
+  "title": "Vespa — Patent Plate",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "VI",
-  "volumeName": "Industrial Icons",
+  "volumeName": "Patent Collection",
   "price": null,
-  "img": "assets/art/placeholder-industrial.svg",
+  "was": null,
+  "img": "assets/art/placeholder-patent.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Exceptional examples of industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "VI · Industrial Icons"
+    "VI · Patent Collection"
    ],
    [
     "Status",
@@ -1917,23 +1985,24 @@ FORM.catalog = [
   "id": "056",
   "num": 56,
   "study": "056",
-  "title": "Braun T3 Radio",
+  "title": "Coca-Cola Contour Bottle — Patent Plate",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "VI",
-  "volumeName": "Industrial Icons",
+  "volumeName": "Patent Collection",
   "price": null,
-  "img": "assets/art/placeholder-industrial.svg",
+  "was": null,
+  "img": "assets/art/placeholder-patent.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Exceptional examples of industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "VI · Industrial Icons"
+    "VI · Patent Collection"
    ],
    [
     "Status",
@@ -1945,23 +2014,24 @@ FORM.catalog = [
   "id": "057",
   "num": 57,
   "study": "057",
-  "title": "Rolex Submariner",
+  "title": "Airstream Trailer — Patent Plate",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "VI",
-  "volumeName": "Industrial Icons",
+  "volumeName": "Patent Collection",
   "price": null,
-  "img": "assets/art/placeholder-industrial.svg",
+  "was": null,
+  "img": "assets/art/placeholder-patent.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Exceptional examples of industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "VI · Industrial Icons"
+    "VI · Patent Collection"
    ],
    [
     "Status",
@@ -1973,23 +2043,24 @@ FORM.catalog = [
   "id": "058",
   "num": 58,
   "study": "058",
-  "title": "Anglepoise Lamp",
+  "title": "Zippo Lighter — Patent Plate",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "VI",
-  "volumeName": "Industrial Icons",
+  "volumeName": "Patent Collection",
   "price": null,
-  "img": "assets/art/placeholder-industrial.svg",
+  "was": null,
+  "img": "assets/art/placeholder-patent.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Exceptional examples of industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "VI · Industrial Icons"
+    "VI · Patent Collection"
    ],
    [
     "Status",
@@ -2001,23 +2072,24 @@ FORM.catalog = [
   "id": "059",
   "num": 59,
   "study": "059",
-  "title": "Braun 606 Shelving",
+  "title": "Bialetti Moka Express — Patent Plate",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "VI",
-  "volumeName": "Industrial Icons",
+  "volumeName": "Patent Collection",
   "price": null,
-  "img": "assets/art/placeholder-industrial.svg",
+  "was": null,
+  "img": "assets/art/placeholder-patent.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Exceptional examples of industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "VI · Industrial Icons"
+    "VI · Patent Collection"
    ],
    [
     "Status",
@@ -2029,23 +2101,1300 @@ FORM.catalog = [
   "id": "060",
   "num": 60,
   "study": "060",
-  "title": "Nikon F",
+  "title": "Kartell Componibili — Patent Plate",
   "sub": "In development",
   "year": null,
   "origin": null,
   "volume": "VI",
+  "volumeName": "Patent Collection",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-patent.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VI · Patent Collection"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "061",
+  "num": 61,
+  "study": "061",
+  "title": "Braun T3 Radio — Patent Plate",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VI",
+  "volumeName": "Patent Collection",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-patent.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VI · Patent Collection"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "062",
+  "num": 62,
+  "study": "062",
+  "title": "Artemide Tizio — Patent Plate",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VI",
+  "volumeName": "Patent Collection",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-patent.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VI · Patent Collection"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "063",
+  "num": 63,
+  "study": "063",
+  "title": "Underwood No.5 — Patent Plate",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VI",
+  "volumeName": "Patent Collection",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-patent.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VI · Patent Collection"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "064",
+  "num": 64,
+  "study": "064",
+  "title": "Braun T1000 — Patent Plate",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VI",
+  "volumeName": "Patent Collection",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-patent.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Historic patent drawings, reimagined as gallery-grade archival plates. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VI · Patent Collection"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "065",
+  "num": 65,
+  "study": "065",
+  "title": "Stelvio Pass, Italy",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VII",
+  "volumeName": "World's Greatest Roads",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-roads.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VII · World's Greatest Roads"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "066",
+  "num": 66,
+  "study": "066",
+  "title": "Atlantic Ocean Road, Norway",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VII",
+  "volumeName": "World's Greatest Roads",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-roads.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VII · World's Greatest Roads"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "067",
+  "num": 67,
+  "study": "067",
+  "title": "Route Napoléon, France",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VII",
+  "volumeName": "World's Greatest Roads",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-roads.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VII · World's Greatest Roads"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "068",
+  "num": 68,
+  "study": "068",
+  "title": "Grossglockner High Alpine Road",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VII",
+  "volumeName": "World's Greatest Roads",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-roads.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VII · World's Greatest Roads"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "069",
+  "num": 69,
+  "study": "069",
+  "title": "Amalfi Coast Road, Italy",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VII",
+  "volumeName": "World's Greatest Roads",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-roads.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VII · World's Greatest Roads"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "070",
+  "num": 70,
+  "study": "070",
+  "title": "Great Ocean Road, Australia",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VII",
+  "volumeName": "World's Greatest Roads",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-roads.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VII · World's Greatest Roads"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "071",
+  "num": 71,
+  "study": "071",
+  "title": "Pacific Coast Highway, USA",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VII",
+  "volumeName": "World's Greatest Roads",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-roads.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VII · World's Greatest Roads"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "072",
+  "num": 72,
+  "study": "072",
+  "title": "Trollstigen, Norway",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VII",
+  "volumeName": "World's Greatest Roads",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-roads.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VII · World's Greatest Roads"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "073",
+  "num": 73,
+  "study": "073",
+  "title": "Furka Pass, Switzerland",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VII",
+  "volumeName": "World's Greatest Roads",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-roads.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VII · World's Greatest Roads"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "074",
+  "num": 74,
+  "study": "074",
+  "title": "Icefields Parkway, Canada",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VII",
+  "volumeName": "World's Greatest Roads",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-roads.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "The road itself as the design object — line, curvature and engineering in the landscape. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VII · World's Greatest Roads"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "075",
+  "num": 75,
+  "study": "075",
+  "title": "Vespa 98",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VIII",
   "volumeName": "Industrial Icons",
   "price": null,
+  "was": null,
   "img": "assets/art/placeholder-industrial.svg",
   "ratio": "3-2",
   "badge": "Coming soon",
   "status": "soon",
   "accession": null,
-  "desc": "Exceptional examples of industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
   "specs": [
    [
     "Volume",
-    "VI · Industrial Icons"
+    "VIII · Industrial Icons"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "076",
+  "num": 76,
+  "study": "076",
+  "title": "Braun SK 4",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VIII",
+  "volumeName": "Industrial Icons",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-industrial.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VIII · Industrial Icons"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "077",
+  "num": 77,
+  "study": "077",
+  "title": "IBM Selectric",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VIII",
+  "volumeName": "Industrial Icons",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-industrial.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VIII · Industrial Icons"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "078",
+  "num": 78,
+  "study": "078",
+  "title": "K6 Telephone Box",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VIII",
+  "volumeName": "Industrial Icons",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-industrial.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VIII · Industrial Icons"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "079",
+  "num": 79,
+  "study": "079",
+  "title": "Bialetti Moka Express",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VIII",
+  "volumeName": "Industrial Icons",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-industrial.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VIII · Industrial Icons"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "080",
+  "num": 80,
+  "study": "080",
+  "title": "Artemide Tizio",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VIII",
+  "volumeName": "Industrial Icons",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-industrial.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VIII · Industrial Icons"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "081",
+  "num": 81,
+  "study": "081",
+  "title": "Braun T3 Pocket Radio",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VIII",
+  "volumeName": "Industrial Icons",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-industrial.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VIII · Industrial Icons"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "082",
+  "num": 82,
+  "study": "082",
+  "title": "Kartell Componibili",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VIII",
+  "volumeName": "Industrial Icons",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-industrial.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VIII · Industrial Icons"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "083",
+  "num": 83,
+  "study": "083",
+  "title": "Underwood No.5",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VIII",
+  "volumeName": "Industrial Icons",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-industrial.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VIII · Industrial Icons"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "084",
+  "num": 84,
+  "study": "084",
+  "title": "Braun T1000 Receiver",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "VIII",
+  "volumeName": "Industrial Icons",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-industrial.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Timeless industrial design beyond transport. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "VIII · Industrial Icons"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "085",
+  "num": 85,
+  "study": "085",
+  "title": "Supermarine Spitfire",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "IX",
+  "volumeName": "Aviation",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-aviation.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "IX · Aviation"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "086",
+  "num": 86,
+  "study": "086",
+  "title": "Concorde",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "IX",
+  "volumeName": "Aviation",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-aviation.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "IX · Aviation"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "087",
+  "num": 87,
+  "study": "087",
+  "title": "Lockheed SR-71 Blackbird",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "IX",
+  "volumeName": "Aviation",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-aviation.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "IX · Aviation"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "088",
+  "num": 88,
+  "study": "088",
+  "title": "Douglas DC-3",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "IX",
+  "volumeName": "Aviation",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-aviation.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "IX · Aviation"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "089",
+  "num": 89,
+  "study": "089",
+  "title": "de Havilland Mosquito",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "IX",
+  "volumeName": "Aviation",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-aviation.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "IX · Aviation"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "090",
+  "num": 90,
+  "study": "090",
+  "title": "North American P-51 Mustang",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "IX",
+  "volumeName": "Aviation",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-aviation.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "IX · Aviation"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "091",
+  "num": 91,
+  "study": "091",
+  "title": "Boeing 747",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "IX",
+  "volumeName": "Aviation",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-aviation.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "IX · Aviation"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "092",
+  "num": 92,
+  "study": "092",
+  "title": "Lockheed Constellation",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "IX",
+  "volumeName": "Aviation",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-aviation.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "IX · Aviation"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "093",
+  "num": 93,
+  "study": "093",
+  "title": "Aermacchi MB-326",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "IX",
+  "volumeName": "Aviation",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-aviation.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "IX · Aviation"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "094",
+  "num": 94,
+  "study": "094",
+  "title": "Beechcraft Staggerwing",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "IX",
+  "volumeName": "Aviation",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-aviation.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Aircraft that defined aerodynamic identity and structural elegance. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "IX · Aviation"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "095",
+  "num": 95,
+  "study": "095",
+  "title": "Battersea Power Station, London",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "X",
+  "volumeName": "Industrial Heritage",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-heritage.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "X · Industrial Heritage"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "096",
+  "num": 96,
+  "study": "096",
+  "title": "Zollverein Coal Mine, Essen",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "X",
+  "volumeName": "Industrial Heritage",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-heritage.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "X · Industrial Heritage"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "097",
+  "num": 97,
+  "study": "097",
+  "title": "Salts Mill, Saltaire",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "X",
+  "volumeName": "Industrial Heritage",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-heritage.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "X · Industrial Heritage"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "098",
+  "num": 98,
+  "study": "098",
+  "title": "Ironbridge Gorge, Shropshire",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "X",
+  "volumeName": "Industrial Heritage",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-heritage.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "X · Industrial Heritage"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "099",
+  "num": 99,
+  "study": "099",
+  "title": "Chatham Historic Dockyard",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "X",
+  "volumeName": "Industrial Heritage",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-heritage.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "X · Industrial Heritage"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "100",
+  "num": 100,
+  "study": "100",
+  "title": "Stanley Dock Warehouse, Liverpool",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "X",
+  "volumeName": "Industrial Heritage",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-heritage.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "X · Industrial Heritage"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "101",
+  "num": 101,
+  "study": "101",
+  "title": "Gasometer City, Vienna",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "X",
+  "volumeName": "Industrial Heritage",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-heritage.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "X · Industrial Heritage"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "102",
+  "num": 102,
+  "study": "102",
+  "title": "SESC Pompeia, São Paulo",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "X",
+  "volumeName": "Industrial Heritage",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-heritage.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "X · Industrial Heritage"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "103",
+  "num": 103,
+  "study": "103",
+  "title": "Phoenix West, Dortmund",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "X",
+  "volumeName": "Industrial Heritage",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-heritage.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "X · Industrial Heritage"
+   ],
+   [
+    "Status",
+    "In development"
+   ]
+  ]
+ },
+ {
+  "id": "104",
+  "num": 104,
+  "study": "104",
+  "title": "Lowell Mills, Massachusetts",
+  "sub": "In development",
+  "year": null,
+  "origin": null,
+  "volume": "X",
+  "volumeName": "Industrial Heritage",
+  "price": null,
+  "was": null,
+  "img": "assets/art/placeholder-heritage.svg",
+  "ratio": "3-2",
+  "badge": "Coming soon",
+  "status": "soon",
+  "accession": null,
+  "desc": "Monumental industrial sites as design history and cultural artefact. This study is in production — join the archive list to be first when it's released.",
+  "specs": [
+   [
+    "Volume",
+    "X · Industrial Heritage"
    ],
    [
     "Status",

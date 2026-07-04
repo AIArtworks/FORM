@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Aviation — in development">
+<rect width="1200" height="800" fill="#ECE4D5"/>
+<g stroke="#D3C7AF" stroke-width="1">
+<line x1="0" y1="200" x2="1200" y2="200"/><line x1="0" y1="400" x2="1200" y2="400"/><line x1="0" y1="600" x2="1200" y2="600"/>
+<line x1="300" y1="0" x2="300" y2="800"/><line x1="600" y1="0" x2="600" y2="800"/><line x1="900" y1="0" x2="900" y2="800"/>
+</g>
+<rect x="60" y="54" width="150" height="60" fill="none" stroke="#17140F" stroke-width="4"/>
+<text x="135" y="97" text-anchor="middle" font-family="Archivo, Arial" font-size="34" font-weight="900" letter-spacing="4" fill="#17140F">FORM</text>
+
+<g transform="translate(600,390)" fill="none" stroke="#17140F" stroke-width="6" stroke-linejoin="round">
+<path d="M0 -190 C 22 -150, 22 -110, 16 -60 L 250 40 L 250 84 L 18 30 L 12 130 L 80 180 L 80 212 L 0 190 L -80 212 L -80 180 L -12 130 L -18 30 L -250 84 L -250 40 L -16 -60 C -22 -110, -22 -150, 0 -190 Z"/>
+</g>
+<circle cx="600" cy="330" r="12" fill="#A9843C"/>
+<text x="60" y="712" font-family="Archivo, Arial" font-size="26" font-weight="900" letter-spacing="4" fill="#17140F">VOLUME IX</text>
+<text x="60" y="748" font-family="Archivo, Arial" font-size="18" font-weight="700" letter-spacing="6" fill="#A9843C">IN DEVELOPMENT</text>
+<g transform="translate(1040,690)" fill="none" stroke="#B7A98C" stroke-width="2"><circle r="58"/><circle r="42"/></g>
+<text x="1040" y="695" text-anchor="middle" font-family="Archivo, Arial" font-size="20" font-weight="900" fill="#A9843C">FORM</text>
+</svg>
