@@ -23,7 +23,7 @@
     <ul class="nav-menu">
       <li><a href="shop.html">The Archive</a></li>
       <li><a href="shop.html#studies">Motorcycles</a></li>
-      <li><a href="shop.html#automotive">Sports Cars</a></li>
+      <li><a href="shop.html#automotive">Automotive Design Icons</a></li>
       <li><a href="shop.html#roadmap">Roadmap</a></li>
       <li><a href="about.html">About</a></li>
     </ul>
@@ -39,7 +39,7 @@
   <button class="mobile-menu-close" aria-label="Close menu">&times;</button>
   <a href="shop.html">The Archive</a>
   <a href="shop.html#studies">Motorcycles</a>
-  <a href="shop.html#automotive">Sports Cars</a>
+  <a href="shop.html#automotive">Automotive Design Icons</a>
   <a href="shop.html#roadmap">Roadmap</a>
   <a href="about.html">About</a>
   <a href="search.html">Search</a>
@@ -108,8 +108,8 @@
       '<div class="breadcrumb"><a href="index.html">Home</a> / <a href="shop.html">Archive</a> / ' + crumbCat + ' / <span>Study ' + p.study + '</span></div>' +
       '<div class="pdp">' +
         '<div class="pdp-media">' +
-          '<div class="pdp-frame"><img id="pdpMain" src="' + p.img + '" alt="Study ' + p.study + ' — ' + p.title + '"></div>' +
-          '<div class="pdp-thumbs">' + thumbs.map(function (t) { return '<img src="' + t.img + '" alt="' + t.title + '">'; }).join('') + '</div>' +
+          '<div class="pdp-frame' + (p.ratio === '5-4' ? ' pdp-frame--wide' : '') + '"><img id="pdpMain" src="' + p.img + '" alt="Study ' + p.study + ' — ' + p.title + '"></div>' +
+          '<div class="pdp-thumbs' + (p.ratio === '5-4' ? ' pdp-thumbs--wide' : '') + '">' + thumbs.map(function (t) { return '<img src="' + t.img + '" alt="' + t.title + '">'; }).join('') + '</div>' +
         '</div>' +
         '<div class="pdp-info">' +
           '<div class="pdp-study">Study ' + p.study + ' · ' + (p.accession || '') + '</div>' +

@@ -461,3 +461,6 @@ body.cart-open .cart-drawer { transform: translateX(0); }
 @media (max-width: 560px) {
   .form-row2 { grid-template-columns: 1fr; }
 }
+
+/* Volume II sports-car plates are 5:4 — show them uncropped on the PDP */
+.pdp-frame--wide img, .pdp-thumbs--wide img { aspect-ratio: 5/4; }

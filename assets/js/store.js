@@ -154,6 +154,16 @@
     if (Cart.add(id, sz, fn, 1)) { toast('Added <b>' + p.title + '</b> to cart'); openDrawer(); }
   });
 
+  /* ---------------- whole product card is clickable ---------------- */
+  document.addEventListener('click', function (e) {
+    var card = e.target.closest('.product-card');
+    if (!card) return;
+    // let real interactive elements (add-to-cart button, the body link) behave normally
+    if (e.target.closest('a, button, [data-add-to-cart]')) return;
+    var link = card.querySelector('a.product-body');
+    if (link) window.location.href = link.getAttribute('href');
+  });
+
   /* ---------------- header wiring ---------------- */
   function wireHeader() {
     document.querySelectorAll('.nav-cart').forEach(function (el) {
